@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('app');
 });
 
+Route::get('/api/pricing', 'PriceController@index');
+
 Route::get('/{any}', function () {
     return view('app');
 })->where('any','.*');
