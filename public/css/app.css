@@ -1,0 +1,79 @@
+#top-nav {
+    padding: 10px 0px;
+    border-bottom: 1px solid #1c1c1c1c;
+}
+
+#top-nav .ebook {
+    display: flex;
+    align-items: center;
+}
+
+#top-nav .contact{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;   
+}
+
+#top-nav .contact-item{
+    margin-left: 20px;    
+}
+
+#main-nav {
+    border-bottom: 1px solid #1c1c1c1c;
+}
+
+#main-nav .img-logo {
+    max-width: 256;
+    height: auto;
+}
+
+#main-nav .row{
+    display: flex;
+    align-items: center;
+}
+
+#main-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+}
+
+#main-nav li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+#home {
+    padding: 40px 15px;
+    border-bottom: 1px solid #1c1c1c1c;
+}
+
+.php-modules {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.php-modules .item {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.php-modules-text {
+    padding-bottom: 10px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.php-modules-text .item {
+    padding-top: 20px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
