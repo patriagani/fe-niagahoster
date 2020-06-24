@@ -1,3 +1,12 @@
+.center-element {
+    display: flex;
+    justify-content: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
 #top-nav {
     padding: 10px 0px;
     border-bottom: 1px solid #1c1c1c1c;
@@ -76,4 +85,137 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.pricing-title {
+    text-align: center;
+}
+
+.features-title {
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature {
+    text-align: center;
+    width: 285px;
+    margin: 50px 30px 50px 30px;
+
+}
+
+.feature img{
+    max-width: 80px;
+    height: auto;
+}
+
+.separator{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-bottom: 5px solid #1c1c1c1c;
+}
+
+.modules-list {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.modules-list-items {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modules-list-items ul {
+    padding-left: 80px;
+}
+
+.modules-list-items li{
+    list-style: none;
+}
+
+.button-nonflat {
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #ffffff;
+    background: #288eea;
+    border: 2px solid #288eea;
+    
+}
+
+.button-flat{
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid #333333;
+}
+
+.button-flat-white{
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid #ffffff;
+}
+
+.laravel-support {
+    border-bottom: 1px solid #1c1c1c1c;
+}
+
+.social-share {
+    padding: 20px 0px;
+    background:rgb(247, 247, 247);
+}
+
+.social-share-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.social-share-text p{
+    margin: 0px;
+}
+
+.social-share-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.social-share-list div{
+    margin: 0px 20px;
+}
+
+.live-chat{
+    padding: 50px 0px;
+    background: #288eea;
+    color: #ffffff;
+}
+
+.live-chat-text{
+    display: flex;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+.live-chat-text h2{
+    margin-bottom: 0px;
+}
+
+.live-chat-button{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }

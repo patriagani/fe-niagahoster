@@ -46,20 +46,207 @@
                 <p>PHP Composer</p>
             </div>
         </div>
+        <div class="container pricing-title">
+            <h2>Paket Hosting Singapura yang Tepat</h2>
+            <h5>Diskon 40% + Domain dan SSL Gratis untuk Anda</h5>
+        </div>
+        <div class="container features-title">
+            <h5>Semua Paket Hosting sudah Termasuk</h5>
+        </div>
+        <div class="container">
+            <div class="row features">
+                <Feature v-for="feature in features" :key="feature" :feature="feature"/>
+            </div>
+            <div class="separator"></div>
+        </div>
+        <div class="container laravel-support">
+            <h5 class="center-text">Mendukung Penuh Framework Laravel</h5>
+            <div class="row">
+                <div class="col-xs-6 col-md-6">
+                    <p>Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda</p>
+                    <ul>
+                        <li>Install Laravel <strong>1 klik</strong> dengan Softaculous Installer.</li>
+                        <li>Mendukung ekstensi <strong>PHP MCrypt, phar, mbstring, json</strong> dan <strong>fileinfo</strong>.</li>
+                        <li>Tersedia <strong>Composer</strong> dan <strong>SSH</strong> untuk menginstall packages pilihan Anda</li>
+                    </ul>
+                    <p>Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis</p>
+                    <Button :title="'Pilih Hosting Anda'" :flat="'button-nonflat'"/>
+                </div>
+                <div class="col-xs-6 col-md-6">
+                    <img src="images/illustration banner support laravel hosting.svg" alt="Mendukung Penuh Framework Laravel">
+                </div>
+            </div>
+        </div>
+         <div class="container">
+            <h5 class="modules-list">Modul Lengkap untuk Menjalankan Aplikasi PHP Anda.</h5>
+            <div class="row modules-list-items">
+                <div class="col-xs-3 col-md-3">
+                    <ul>
+                        <li>IcePHP</li>
+                        <li>apc</li>
+                        <li>apcu</li>
+                        <li>apm</li>
+                        <li>ares</li>
+                        <li>bcmath</li>
+                        <li>bcompiler</li>
+                        <li>big_int</li>
+                        <li>bitset</li>
+                        <li>bloomy</li>
+                        <li>bz2_filter</li>
+                        <li>clamav</li>
+                        <li>coin_acceptor</li>
+                        <li>crack</li>
+                        <li>dba</li>
+                    </ul>
+                </div>
+                <div class="col-xs-3 col-md-3">
+                    <ul>
+                        <li>http</li>
+                        <li>huffman</li>
+                        <li>idn</li>
+                        <li>igbinary</li>
+                        <li>imagick</li>
+                        <li>imap</li>
+                        <li>inclued</li>
+                        <li>inotify</li>
+                        <li>interbase</li>
+                        <li>intl</li>
+                        <li>ioncube_loader</li>
+                        <li>ioncube_loader_4</li>
+                        <li>jsmin</li>
+                        <li>json</li>
+                        <li>idap</li>
+                    </ul>
+                </div>
+                <div class="col-xs-3 col-md-3">
+                    <ul>
+                        <li>nd_pdo_mysql</li>
+                        <li>oauth</li>
+                        <li>oci8</li>
+                        <li>adbc</li>
+                        <li>opcache</li>
+                        <li>pdf</li>
+                        <li>pdo</li>
+                        <li>pdo_dblib</li>
+                        <li>pdo_firebird</li>
+                        <li>pdo_mysql</li>
+                        <li>pdo_odbc</li>
+                        <li>pdo_pgsql</li>
+                        <li>pdo_sqlite</li>
+                        <li>pgsql</li>
+                        <li>phalcon</li>
+                    </ul>
+                </div>
+                <div class="col-xs-3 col-md-3">
+                    <ul>
+                        <li>stats</li>
+                        <li>stem</li>
+                        <li>stomp</li>
+                        <li>suhosin</li>
+                        <li>sybase_ct</li>
+                        <li>sysvmsg</li>
+                        <li>sysvsem</li>
+                        <li>sysvshm</li>
+                        <li>tidy</li>
+                        <li>timezonedb</li>
+                        <li>trader</li>
+                        <li>translit</li>
+                        <li>uploadprogress</li>
+                        <li>uri_template</li>
+                        <li>uuid</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="center-element">
+                <Button :title="'Selengkapnya'" :flat="'button-flat'"/>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-md-6">
+                    <h5>Linux Hosting yang Stabil dengan Teknologi LVE</h5>
+                    <p>SuperMicro <strong>Intel Xeon 24-Cores</strong> server dengan RAM <strong>128GB</strong> dan teknologi <strong>LVE CloudLinux</strong> untuk stabilitas server Anda. Dilengkapi dengan <strong>SSD</strong> untuk kecepatan <strong>MySQL</strong> dan caching. Apache load balancer berbasis LiteSpeed Technologies, <strong>CageFS</strong> security, <strong>Raid-10</strong> protection dan auto backup untuk keamanan website PHP Anda.</p>
+                    <Button :title="'Pilih Hosting Anda'" :flat="'button-nonflat'"/>
+                </div>
+                <div class="col-xs-6 col-md-6">
+                    <img src="images/Image support.png" alt="Linux Hosting yang Stabil dengan Teknologi LVE">
+                </div>
+            </div>
+        </div>
+        <div class="social-share">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-md-6 social-share-text">
+                        <p>Bagikan jika Anda menyukai halaman ini.</p>
+                    </div>
+                    <div class="col-xs-6 col-md-6 social-share-list">
+                        <div>facebook</div>
+                        <div>twitter</div>
+                        <div>google+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="live-chat">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8 col-md-8 live-chat-text">
+                        <h2>Perlu <strong>Bantuan?</strong> Hubungi Kami : <strong>0274-5305505</strong></h2>
+                    </div>
+                    <div class="col-xs-4 col-md-4 live-chat-button">
+                        <Button :title="'Live Chat'" :flat="'button-flat-white'"/>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
 
 <script>
     import Navbar from './Navbar.vue';
+    import Feature from './Feature.vue';
+    import Button from './Button.vue';
 
     export default {
         components: {
-            Navbar
+            Navbar,
+            Feature,
+            Button
         },
         data() {
             return {
-                posts: []
+                features: [
+                    {
+                        img: "images/icon PHP Hosting_PHP Semua Versi.svg",
+                        title: "PHP Semua Versi",
+                        description: "Pilih mulai dari versi PHP 5.3 s/d PHP 7. Ubah sesuka Anda!"
+                    },
+                    {
+                        img: "images/icon PHP Hosting_My SQL.svg",
+                        title: "MySQL Versi 5.6",
+                        description: "Nikmati MySQL versi terbaru, tercepat dan kaya akan fitur."
+                    },
+                    {
+                        img: "images/icon PHP Hosting_CPanel.svg",
+                        title: "Panel Hosting cPanel",
+                        description: "Kelola website dengan panel canggih yang familiar di hati Anda."
+                    },{
+                        img: "images/icon PHP Hosting_garansi uptime.svg",
+                        title: "Garansi Uptime 99.9%",
+                        description: "Data center yang mendukung kelangsungan website Anda 24/7."
+                    },
+                    {
+                        img: "images/icon PHP Hosting_InnoDB.svg",
+                        title: "Database InnoDB Unlimited",
+                        description: "Jumlah dan ukuran database yang tumbuh sesuai kebutuhan Anda."
+                    },
+                    {
+                        img: "images/icon PHP Hosting_My SQL remote.svg",
+                        title: "Wildcard Remote MySQL",
+                        description: "Mendukung s/d 25 max_user_connections dan 100 max_connections."
+                    }
+                ]
             }
         },
         created() {
