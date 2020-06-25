@@ -75,52 +75,52 @@ li{
     text-align: center;
 }
 
-#top-nav {
+.top-nav {
     padding: 10px 0px;
     border-bottom: 1px solid #1c1c1c1c;
 }
 
-#top-nav .ebook {
+.top-nav .ebook {
     display: flex;
     align-items: center;
 }
 
-#top-nav .contact{
+.top-nav .contact{
     display: flex;
     justify-content: flex-end; 
     align-items: center;   
 }
 
-#top-nav .contact-item{
+.top-nav .contact-item{
     margin-left: 20px;    
 }
 
-#main-nav {
+.main-nav {
     padding: 10px 0px;
     border-bottom: 1px solid #1c1c1c1c;
 }
 
-#main-nav .img-logo {
+.main-nav .img-logo {
     max-width: 256;
     height: auto;
 }
 
-#main-nav .row{
+.main-nav .row{
     display: flex;
     align-items: center;
 }
 
-#main-nav ul{
+.main-nav ul{
     display: flex;
     justify-content: flex-end;
     margin: 0px;
 }
 
-#main-nav li{
+.main-nav li{
     margin-left: 20px;
 }
 
-#home {
+.php-hosting {
     padding: 40px 15px;
     border-bottom: 1px solid #1c1c1c1c;
 }

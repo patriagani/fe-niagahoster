@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div id="top-nav">
+        <div class="top-nav">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-4 col-md-4 ebook font-mont font-size-12">
@@ -14,7 +14,7 @@
                 </div>
             </div>
         </div>
-        <div id="main-nav">
+        <div class="main-nav">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-4 col-md-4 logo">
