@@ -401,6 +401,7 @@ li{
     padding-bottom: 30px;
     width: 270px;
     height: 100%;
+    border-radius: 2px; 
     border: 1px solid #f1f1f1;
 }
 
@@ -441,4 +442,12 @@ li{
 .pricing-tables .table .price .discounted sup{
    top: -1.5em;
    font-size: 16px;
+}
+
+.pop img{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -140px;
 }

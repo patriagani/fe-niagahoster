@@ -2473,6 +2473,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -21335,41 +21340,58 @@ var render = function() {
         1
       ),
       _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "table" },
-        [
-          _vm._m(9),
-          _vm._v(" "),
-          _c("div", { staticClass: "price" }, [
+      _c("div", [
+        _vm._m(9),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "table",
+            staticStyle: { border: "1px solid #298eea" }
+          },
+          [
+            _vm._m(10),
+            _vm._v(" "),
             _c(
               "div",
-              { staticClass: "realprice font-mont" },
-              [_c("strike", [_vm._v("Rp 58.900")])],
-              1
+              {
+                staticClass: "price",
+                staticStyle: { background: "#298eea", color: "#ffffff" }
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "realprice font-mont",
+                    staticStyle: { color: "#ffffff" }
+                  },
+                  [_c("strike", [_vm._v("Rp 58.900")])],
+                  1
+                ),
+                _vm._v(" "),
+                _vm._m(11)
+              ]
             ),
             _vm._v(" "),
-            _vm._m(10)
-          ]),
-          _vm._v(" "),
-          _vm._m(11),
-          _vm._v(" "),
-          _vm._m(12),
-          _vm._v(" "),
-          _c("br"),
-          _vm._v(" "),
-          _c("Button", {
-            attrs: { title: "Pilih Sekarang", flat: "button-flat" }
-          })
-        ],
-        1
-      ),
+            _vm._m(12),
+            _vm._v(" "),
+            _vm._m(13),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("Button", {
+              attrs: { title: "Pilih Sekarang", flat: "button-nonflat" }
+            })
+          ],
+          1
+        )
+      ]),
       _vm._v(" "),
       _c(
         "div",
         { staticClass: "table" },
         [
-          _vm._m(13),
+          _vm._m(14),
           _vm._v(" "),
           _c("div", { staticClass: "price" }, [
             _c(
@@ -21379,12 +21401,12 @@ var render = function() {
               1
             ),
             _vm._v(" "),
-            _vm._m(14)
+            _vm._m(15)
           ]),
           _vm._v(" "),
-          _vm._m(15),
-          _vm._v(" "),
           _vm._m(16),
+          _vm._v(" "),
+          _vm._m(17),
           _vm._v(" "),
           _c("br"),
           _vm._v(" "),
@@ -21539,9 +21561,27 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "package" }, [
-      _c("h2", [_vm._v("Personal")])
+    return _c("div", { staticClass: "pop" }, [
+      _c("img", {
+        attrs: { src: "images/ribbon-best-seller.webp", alt: "Best Seller" }
+      })
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "package",
+        staticStyle: {
+          background: "#298eea",
+          "border-bottom": "1px solid #298eea"
+        }
+      },
+      [_c("h2", { staticStyle: { color: "#ffffff" } }, [_vm._v("Personal")])]
+    )
   },
   function() {
     var _vm = this
@@ -21550,12 +21590,21 @@ var staticRenderFns = [
     return _c("div", { staticClass: "discounted" }, [
       _c("sup", [_c("span", [_vm._v("Rp")])]),
       _vm._v(" "),
-      _c("span", { staticClass: "font-mont-bold font-size-50" }, [
-        _vm._v("38")
-      ]),
+      _c(
+        "span",
+        {
+          staticClass: "font-mont-bold font-size-50",
+          staticStyle: { color: "#ffffff" }
+        },
+        [_vm._v("38")]
+      ),
       _vm._v(" "),
       _c("sup", [
-        _c("span", { staticClass: "font-mont-bold" }, [_vm._v(".900/")]),
+        _c(
+          "span",
+          { staticClass: "font-mont-bold", staticStyle: { color: "#ffffff" } },
+          [_vm._v(".900/")]
+        ),
         _c("span", [_vm._v("bln")])
       ])
     ])
@@ -21564,10 +21613,22 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "users font-mont font-size-13" }, [
-      _c("strong", [_vm._v("10.017")]),
-      _vm._v(" Pengguna Terdaftar\n            ")
-    ])
+    return _c(
+      "div",
+      {
+        staticClass: "users font-mont font-size-13",
+        staticStyle: {
+          background: "#177eda",
+          color: "#ffffff",
+          "border-top": "1px solid #177eda",
+          "border-bottom": "1px solid #177eda"
+        }
+      },
+      [
+        _c("strong", [_vm._v("10.017")]),
+        _vm._v(" Pengguna Terdaftar\n                ")
+      ]
+    )
   },
   function() {
     var _vm = this
