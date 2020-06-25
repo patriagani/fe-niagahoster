@@ -172,6 +172,10 @@
     border-bottom: 1px solid #1c1c1c1c;
 }
 
+.linux-hosting {
+    padding-top: 100px;
+}
+
 .social-share {
     padding: 20px 0px;
     background:rgb(247, 247, 247);
@@ -218,4 +222,38 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.footer {
+    padding-top: 80px;
+    color: #ffffff;
+    background: #333333;
+}
+
+.powerful-php{
+    text-align: center;
+}
+
+.powerful-php-features {
+    display: flex;
+    justify-content: center;
+}
+
+.powerful-php-tables {
+    margin: 10px 20px;
+}
+
+.powerful-php-item {
+    border: 1px solid #e2e2e2;
+    width: 350px;
+}
+
+.powerful-php-item-grey{
+    background: #e2e2e2;
+    border: 1px solid #e2e2e2;
+    width: 350px;
+}
+
+.powerful-php p{
+    margin: 5px 0px;
 }

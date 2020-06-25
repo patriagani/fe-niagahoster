@@ -1972,6 +1972,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navbar_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Navbar.vue */ "./resources/js/components/Navbar.vue");
 /* harmony import */ var _Feature_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Feature.vue */ "./resources/js/components/Feature.vue");
 /* harmony import */ var _Button_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Button.vue */ "./resources/js/components/Button.vue");
+/* harmony import */ var _Footer_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer.vue */ "./resources/js/components/Footer.vue");
 //
 //
 //
@@ -2177,6 +2178,35 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 
 
 
@@ -2184,7 +2214,8 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     Navbar: _Navbar_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
     Feature: _Feature_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    Button: _Button_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
+    Button: _Button_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    Footer: _Footer_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
   },
   data: function data() {
     return {
@@ -19897,6 +19928,200 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374& ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "footer" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-xs-3 col-md-3" }, [
+            _c("h5", [_vm._v("Hubungi Kami")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v("\n                    0274-5305505 "),
+              _c("br"),
+              _vm._v("\n                    Senin - Minggu "),
+              _c("br"),
+              _vm._v("\n                    24 Jam Nonstop "),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v("\n                    Jl. Selokan Mataram Monjali "),
+              _c("br"),
+              _vm._v("\n                    Karangjati MT I/304 "),
+              _c("br"),
+              _vm._v("\n                    Sinduadi, Mlati, Sleman "),
+              _c("br"),
+              _vm._v("\n                    Yogyakarta 55284\n                ")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-xs-3 col-md-3" }, [
+            _c("h5", [_vm._v("Layanan")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v("\n                    Domain"),
+              _c("br"),
+              _vm._v("\n                    Shared Hosting"),
+              _c("br"),
+              _vm._v("\n                    Cloud VPS Hosting"),
+              _c("br"),
+              _vm._v("\n                    Managed VPS Hosting"),
+              _c("br"),
+              _vm._v("\n                    Web Builder"),
+              _c("br"),
+              _vm._v("\n                    Keamanan SSL / HTTPS"),
+              _c("br"),
+              _vm._v("\n                    Jasa Pembuatan Website"),
+              _c("br"),
+              _vm._v("\n                    Program Afiliasi\n                ")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-xs-3 col-md-3" }, [
+            _c("h5", [_vm._v("Service Hosting")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v("\n                    Hosting Murah"),
+              _c("br"),
+              _vm._v("\n                    Hosting Indonesia"),
+              _c("br"),
+              _vm._v("\n                    Hosting Singapura SG"),
+              _c("br"),
+              _vm._v("\n                    Hosting PHP"),
+              _c("br"),
+              _vm._v("\n                    Hosting Wordpress"),
+              _c("br"),
+              _vm._v("\n                    Hosting Laravel"),
+              _c("br")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-xs-3 col-md-3" }, [
+            _c("h5", [_vm._v("Tutorial")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v("\n                    Knowledgebase"),
+              _c("br"),
+              _vm._v("\n                    Blog"),
+              _c("br"),
+              _vm._v("\n                    Cara Pembayaran"),
+              _c("br")
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _c("br"),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-xs-3 col-md-3" }, [
+            _c("h5", [_vm._v("Tentang Kami")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v("\n                    Tim Niagahoster"),
+              _c("br"),
+              _vm._v("\n                    Karir"),
+              _c("br"),
+              _vm._v("\n                    Events"),
+              _c("br"),
+              _vm._v("\n                    Penawaran dan Promo Spesial"),
+              _c("br"),
+              _vm._v("\n                    Kontak Kami\n                ")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-xs-3 col-md-3" }, [
+            _c("h5", [_vm._v("Kenapa Pilih Niagahoster")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v("\n                    Support Terbaik"),
+              _c("br"),
+              _vm._v("\n                    Garasi Harga Termurah"),
+              _c("br"),
+              _vm._v("\n                    Domain Gratis Selamanya"),
+              _c("br"),
+              _vm._v("\n                    Datacenter Hosting Terbaik"),
+              _c("br"),
+              _vm._v("\n                    Review Pelanggan\n                ")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-xs-6 col-md-6" }, [
+            _c("h5", [_vm._v("Newsletter")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _c("br"),
+        _vm._v(" "),
+        _c("div", { staticClass: "row payment-systems" }, [
+          _c("div", { staticClass: "col-xs-12 col-md-12" }, [
+            _c("h5", [_vm._v("Pembayaran")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "payment-systems-list" }),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Aktivasi instan dengan e-Payment. Hosting dan domain langsung aktif"
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _c("br"),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-xs-9 col-md-9" }, [
+            _c("p", [
+              _vm._v(
+                "\n                    Copyright 2020 Niagahoster | Hosting powered by PHP7, CloudLinux, CloudFlare, BitNinja dan DC Biznet Technovillage Jakarta "
+              ),
+              _c("br"),
+              _vm._v(
+                "\n                    Cloud VPS Murah powered by Webuzo Softaculous, Intel SSD and cloud computing technology\n                "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-xs-3 col-md-3" }, [
+            _c("p", [
+              _vm._v(
+                "\n                    Syarat dan Ketentuan | Kebijakan Privasi\n                "
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Index.vue?vue&type=template&id=bb962f12&":
 /*!********************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Index.vue?vue&type=template&id=bb962f12& ***!
@@ -19927,6 +20152,8 @@ var render = function() {
       _vm._v(" "),
       _vm._m(4),
       _vm._v(" "),
+      _vm._m(5),
+      _vm._v(" "),
       _c("div", { staticClass: "container" }, [
         _c(
           "div",
@@ -19956,7 +20183,7 @@ var render = function() {
                 )
               ]),
               _vm._v(" "),
-              _vm._m(5),
+              _vm._m(6),
               _vm._v(" "),
               _c("p", [
                 _vm._v(
@@ -19971,7 +20198,7 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _vm._m(6)
+          _vm._m(7)
         ])
       ]),
       _vm._v(" "),
@@ -19980,7 +20207,7 @@ var render = function() {
           _vm._v("Modul Lengkap untuk Menjalankan Aplikasi PHP Anda.")
         ]),
         _vm._v(" "),
-        _vm._m(7),
+        _vm._m(8),
         _vm._v(" "),
         _c(
           "div",
@@ -19994,7 +20221,7 @@ var render = function() {
         )
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "container linux-hosting" }, [
         _c("div", { staticClass: "row" }, [
           _c(
             "div",
@@ -20004,7 +20231,7 @@ var render = function() {
                 _vm._v("Linux Hosting yang Stabil dengan Teknologi LVE")
               ]),
               _vm._v(" "),
-              _vm._m(8),
+              _vm._m(9),
               _vm._v(" "),
               _c("Button", {
                 attrs: { title: "Pilih Hosting Anda", flat: "button-nonflat" }
@@ -20013,16 +20240,16 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _vm._m(9)
+          _vm._m(10)
         ])
       ]),
       _vm._v(" "),
-      _vm._m(10),
+      _vm._m(11),
       _vm._v(" "),
       _c("div", { staticClass: "live-chat" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
-            _vm._m(11),
+            _vm._m(12),
             _vm._v(" "),
             _c(
               "div",
@@ -20036,7 +20263,9 @@ var render = function() {
             )
           ])
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _c("Footer")
     ],
     1
   )
@@ -20147,6 +20376,44 @@ var staticRenderFns = [
       _c("h2", [_vm._v("Paket Hosting Singapura yang Tepat")]),
       _vm._v(" "),
       _c("h5", [_vm._v("Diskon 40% + Domain dan SSL Gratis untuk Anda")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container powerful-php" }, [
+      _c("h5", [_vm._v("Powerful dengan Limit PHP yang Lebih Besar")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "powerful-php-features" }, [
+        _c("div", { staticClass: "powerful-php-tables" }, [
+          _c("div", { staticClass: "powerful-php-item" }, [
+            _c("p", [_vm._v("max execution time 300s")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "powerful-php-item-grey" }, [
+            _c("p", [_vm._v("max execution time 300s")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "powerful-php-item" }, [
+            _c("p", [_vm._v("php memory limit 1024 MB")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "powerful-php-tables" }, [
+          _c("div", { staticClass: "powerful-php-item" }, [
+            _c("p", [_vm._v("post max size 128 MB")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "powerful-php-item-grey" }, [
+            _c("p", [_vm._v("upload max filesize 12 8MB")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "powerful-php-item" }, [
+            _c("p", [_vm._v("max input vars 2500")])
+          ])
+        ])
+      ])
     ])
   },
   function() {
@@ -35974,6 +36241,59 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Feature_vue_vue_type_template_id_7df58d4a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Feature_vue_vue_type_template_id_7df58d4a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Footer.vue":
+/*!********************************************!*\
+  !*** ./resources/js/components/Footer.vue ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer.vue?vue&type=template&id=61a7c374& */ "./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Footer.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/Footer.vue?vue&type=template&id=61a7c374& ***!
+  \***************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Footer.vue?vue&type=template&id=61a7c374& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

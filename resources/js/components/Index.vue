@@ -50,6 +50,33 @@
             <h2>Paket Hosting Singapura yang Tepat</h2>
             <h5>Diskon 40% + Domain dan SSL Gratis untuk Anda</h5>
         </div>
+        <div class="container powerful-php">
+            <h5>Powerful dengan Limit PHP yang Lebih Besar</h5>
+            <div class="powerful-php-features">
+                <div class="powerful-php-tables">
+                    <div class="powerful-php-item">
+                        <p>max execution time 300s</p>
+                    </div>
+                    <div class="powerful-php-item-grey">
+                        <p>max execution time 300s</p>
+                    </div>
+                    <div class="powerful-php-item">
+                        <p>php memory limit 1024 MB</p>
+                    </div>
+                </div>
+                <div class="powerful-php-tables">
+                    <div class="powerful-php-item">
+                        <p>post max size 128 MB</p>
+                    </div>
+                    <div class="powerful-php-item-grey">
+                        <p>upload max filesize 12 8MB</p>
+                    </div>
+                    <div class="powerful-php-item">
+                        <p>max input vars 2500</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container features-title">
             <h5>Semua Paket Hosting sudah Termasuk</h5>
         </div>
@@ -161,7 +188,7 @@
                 <Button :title="'Selengkapnya'" :flat="'button-flat'"/>
             </div>
         </div>
-        <div class="container">
+        <div class="container linux-hosting">
             <div class="row">
                 <div class="col-xs-6 col-md-6">
                     <h5>Linux Hosting yang Stabil dengan Teknologi LVE</h5>
@@ -199,6 +226,7 @@
                 </div>
             </div>
         </div>
+        <Footer/>
     </div>
 </template>
 
@@ -207,12 +235,14 @@
     import Navbar from './Navbar.vue';
     import Feature from './Feature.vue';
     import Button from './Button.vue';
+    import Footer from './Footer.vue';
 
     export default {
         components: {
             Navbar,
             Feature,
-            Button
+            Button,
+            Footer
         },
         data() {
             return {
