@@ -72,6 +72,24 @@
                 </div>
                 <div class="col-xs-6 col-md-6">
                     <h5>Newsletter</h5>
+                    <div class="newsletter-wrapper">
+                        <div class="newsletter-input">
+                            <input style="border-radius: 25px; height: 50px; width: 100%;" type="text" placeholder="      Email">
+                            <button class="newsletter-button">Berlangganan</button>
+                            <p style="padding-top: 10px; font-size: 12px;">Dapatkan promo dan konten menarik dari penyedia hosting terbaik Anda</p>
+                        </div>
+                        <div class="socials-wrapper">
+                            <div class="social-circle">
+                                <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                            </div>
+                            <div class="social-circle">
+                                <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                            </div>
+                            <div class="social-circle">
+                                <i class="fa fa-google fa-lg" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <br><br>

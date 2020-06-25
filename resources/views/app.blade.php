@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link href="css/app.css" type="text/css" rel="stylesheet"/>
         <link rel="shortcut icon" href="https://www.niagahoster.co.id/assets/images/2019/favicon.ico">
+        <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5ef473e91c4d5700130dd47e&product=inline-share-buttons" async="async"></script>
         <title>Web Hosting Indonesia Unlimited & Terbaik - Niagahoster</title>
     </head>
     <body>

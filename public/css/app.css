@@ -1,3 +1,18 @@
+.ribbon {
+    position: absolute;
+    margin-top: -12px;
+    color: #2890ea;
+
+}
+
+.tag {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 7px;
+    color: #ffffff;
+
+}
+
 .green-check{
     padding: 10px 0px;
 }
@@ -120,6 +135,7 @@ li{
 
 .main-nav ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     margin: 0px;
 }
@@ -329,6 +345,7 @@ li{
 .powerful-php-features {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .powerful-php-tables {
@@ -380,6 +397,7 @@ li{
 
 .payment-systems-list{
     display: flex;
+    flex-wrap: wrap;
     padding-bottom: 20px;
 }
 
@@ -450,4 +468,63 @@ li{
     position: absolute;
     margin-top: -5px;
     margin-left: -140px;
+}
+
+.newsletter-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.newsletter-input {
+    max-width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.socials-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.social-circle {
+    margin-left: 30px;
+    color: #cfcfcf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid #cfcfcf;
+}
+
+.newsletter-button {
+    font-family: 'Montserrat-bold', sans-serif;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 140px;
+    font-weight: 400;
+    font-size: 14px;
+    height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    color: #ffffff;
+    background: #45a2f3;
+    border: 2px solid #45a2f3; 
+}
+
+.livechat-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid #ffffff;
 }

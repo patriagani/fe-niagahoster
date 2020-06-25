@@ -9,7 +9,7 @@
                 <Button :title="'Pilih Hosting Anda'" :flat="'button-nonflat'"/>
             </div>
             <div class="col-xs-6 col-md-6 linux-hosting-img">
-                <img src="images/Image support.png" alt="Linux Hosting yang Stabil dengan Teknologi LVE">
+                <img src="images/Image support.png" style="width: 100%; height: auto;" alt="Linux Hosting yang Stabil dengan Teknologi LVE">
             </div>
         </div>
     </div>

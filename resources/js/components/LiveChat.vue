@@ -6,19 +6,12 @@
                     <h2>Perlu <strong>BANTUAN?</strong> Hubungi Kami : <strong>0274-5305505</strong></h2>
                 </div>
                 <div class="col-xs-2 col-md-2 live-chat-button">
-                    <Button :title="'Live Chat'" :flat="'button-flat-white'"/>
+                    <div class="livechat-button">
+                        <i class="fa fa-comments fa-2x" aria-hidden="true" style="margin-right: 10px;"></i>
+                        <p class="font-mont-bold font-size 23" style="color: #ffffff; margin: 0px">Live Chat</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
-
-<script>
-    import Button from './Button.vue';
-
-    export default {
-        components: {
-            Button,
-        }
-    }
-</script>

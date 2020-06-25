@@ -2176,40 +2176,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LiveChat.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LiveChat.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Button_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Button.vue */ "./resources/js/components/Button.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    Button: _Button_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }
-});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ModulesList.vue?vue&type=script&lang=js&":
 /*!**********************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ModulesList.vue?vue&type=script&lang=js& ***!
@@ -20372,7 +20338,59 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-xs-6 col-md-6" }, [
-            _c("h5", [_vm._v("Newsletter")])
+            _c("h5", [_vm._v("Newsletter")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "newsletter-wrapper" }, [
+              _c("div", { staticClass: "newsletter-input" }, [
+                _c("input", {
+                  staticStyle: {
+                    "border-radius": "25px",
+                    height: "50px",
+                    width: "100%"
+                  },
+                  attrs: { type: "text", placeholder: "      Email" }
+                }),
+                _vm._v(" "),
+                _c("button", { staticClass: "newsletter-button" }, [
+                  _vm._v("Berlangganan")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "p",
+                  {
+                    staticStyle: { "padding-top": "10px", "font-size": "12px" }
+                  },
+                  [
+                    _vm._v(
+                      "Dapatkan promo dan konten menarik dari penyedia hosting terbaik Anda"
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "socials-wrapper" }, [
+                _c("div", { staticClass: "social-circle" }, [
+                  _c("i", {
+                    staticClass: "fa fa-facebook fa-lg",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "social-circle" }, [
+                  _c("i", {
+                    staticClass: "fa fa-twitter fa-lg",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "social-circle" }, [
+                  _c("i", {
+                    staticClass: "fa fa-google fa-lg",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ])
+              ])
+            ])
           ])
         ]),
         _vm._v(" "),
@@ -20681,6 +20699,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-xs-6 col-md-6 linux-hosting-img" }, [
       _c("img", {
+        staticStyle: { width: "100%", height: "auto" },
         attrs: {
           src: "images/Image support.png",
           alt: "Linux Hosting yang Stabil dengan Teknologi LVE"
@@ -20710,44 +20729,53 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "live-chat" }, [
-    _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row" }, [
-        _vm._m(0),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "col-xs-2 col-md-2 live-chat-button" },
-          [
-            _c("Button", {
-              attrs: { title: "Live Chat", flat: "button-flat-white" }
-            })
-          ],
-          1
-        )
-      ])
-    ])
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "col-xs-10 col-md-10 font-mont font-size-32 live-chat-text"
-      },
-      [
-        _c("h2", [
-          _vm._v("Perlu "),
-          _c("strong", [_vm._v("BANTUAN?")]),
-          _vm._v(" Hubungi Kami : "),
-          _c("strong", [_vm._v("0274-5305505")])
+    return _c("div", { staticClass: "live-chat" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-xs-10 col-md-10 font-mont font-size-32 live-chat-text"
+            },
+            [
+              _c("h2", [
+                _vm._v("Perlu "),
+                _c("strong", [_vm._v("BANTUAN?")]),
+                _vm._v(" Hubungi Kami : "),
+                _c("strong", [_vm._v("0274-5305505")])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-xs-2 col-md-2 live-chat-button" }, [
+            _c("div", { staticClass: "livechat-button" }, [
+              _c("i", {
+                staticClass: "fa fa-comments fa-2x",
+                staticStyle: { "margin-right": "10px" },
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c(
+                "p",
+                {
+                  staticClass: "font-mont-bold font-size 23",
+                  staticStyle: { color: "#ffffff", margin: "0px" }
+                },
+                [_vm._v("Live Chat")]
+              )
+            ])
+          ])
         ])
-      ]
-    )
+      ])
+    ])
   }
 ]
 render._withStripped = true
@@ -20964,29 +20992,54 @@ var staticRenderFns = [
           _c("div", { staticClass: "row" }, [
             _c(
               "div",
-              { staticClass: "col-xs-4 col-md-4 ebook font-mont font-size-12" },
+              { staticClass: "col-xs-5 col-md-5 ebook font-mont font-size-12" },
               [
-                _vm._v(
-                  "\n                Gratis Ebook 9 Cara Cerdas Menggunakan Domain [x]\n                "
-                )
+                _c("i", {
+                  staticClass: "fa fa-bookmark fa-3x ribbon",
+                  attrs: { "aria-hidden": "true" }
+                }),
+                _vm._v(" "),
+                _c("i", {
+                  staticClass: "fa fa-tag fa-1x tag",
+                  attrs: { "aria-hidden": "true" }
+                }),
+                _vm._v(" "),
+                _c("p", { staticStyle: { "margin-left": "30px" } }, [
+                  _vm._v("Gratis Ebook 9 Cara Cerdas Menggunakan Domain [x]")
+                ])
               ]
             ),
             _vm._v(" "),
             _c(
               "div",
               {
-                staticClass: "col-xs-8 col-md-8 contact font-mont font-size-14"
+                staticClass: "col-xs-7 col-md-7 contact font-mont font-size-14"
               },
               [
                 _c("div", { staticClass: "contact-item" }, [
+                  _c("i", {
+                    staticClass: "fa fa-phone",
+                    staticStyle: { "margin-right": "10px" },
+                    attrs: { "aria-hidden": "true" }
+                  }),
                   _vm._v("0274-5305505")
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "contact-item" }, [
+                  _c("i", {
+                    staticClass: "fa fa-comments",
+                    staticStyle: { "margin-right": "10px" },
+                    attrs: { "aria-hidden": "true" }
+                  }),
                   _vm._v("Live Chat")
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "contact-item" }, [
+                  _c("i", {
+                    staticClass: "fa fa-user-circle",
+                    staticStyle: { "margin-right": "10px" },
+                    attrs: { "aria-hidden": "true" }
+                  }),
                   _vm._v("Member Area")
                 ])
               ]
@@ -20998,7 +21051,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "main-nav" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-xs-4 col-md-4 logo" }, [
+            _c("div", { staticClass: "col-xs-2 col-md-2 logo" }, [
               _c("img", {
                 staticClass: "img-logo",
                 attrs: {
@@ -21010,7 +21063,9 @@ var staticRenderFns = [
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-xs-8 col-md-8 menu font-mont font-size-14" },
+              {
+                staticClass: "col-xs-10 col-md-10 menu font-mont font-size-14"
+              },
               [
                 _c("ul", [
                   _c("li", [_vm._v("Hosting")]),
@@ -21796,11 +21851,7 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-xs-6 col-md-6 social-share-list" }, [
-            _c("div", [_vm._v("facebook")]),
-            _vm._v(" "),
-            _c("div", [_vm._v("twitter")]),
-            _vm._v(" "),
-            _c("div", [_vm._v("google+")])
+            _c("div", { staticClass: "sharethis-inline-share-buttons" })
           ])
         ])
       ])
@@ -37623,17 +37674,15 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _LiveChat_vue_vue_type_template_id_4560b462___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LiveChat.vue?vue&type=template&id=4560b462& */ "./resources/js/components/LiveChat.vue?vue&type=template&id=4560b462&");
-/* harmony import */ var _LiveChat_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LiveChat.vue?vue&type=script&lang=js& */ "./resources/js/components/LiveChat.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-
-
+var script = {}
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _LiveChat_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
   _LiveChat_vue_vue_type_template_id_4560b462___WEBPACK_IMPORTED_MODULE_0__["render"],
   _LiveChat_vue_vue_type_template_id_4560b462___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -37647,20 +37696,6 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/LiveChat.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/LiveChat.vue?vue&type=script&lang=js&":
-/*!***********************************************************************!*\
-  !*** ./resources/js/components/LiveChat.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LiveChat_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./LiveChat.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LiveChat.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LiveChat_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
