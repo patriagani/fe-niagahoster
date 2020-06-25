@@ -1,8 +1,8 @@
 <template>
     <div class="feature">
         <img :src="feature.img">
-        <h3>{{feature.title}}</h3>
-        <p>{{feature.description}}</p>
+        <h3 class="font-mont-bold font-size-18">{{feature.title}}</h3>
+        <p class="font-mont font-size-14">{{feature.description}}</p>
     </div>
 </template>
 

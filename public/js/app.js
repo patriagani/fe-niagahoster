@@ -2206,6 +2206,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -19916,9 +19924,13 @@ var render = function() {
   return _c("div", { staticClass: "feature" }, [
     _c("img", { attrs: { src: _vm.feature.img } }),
     _vm._v(" "),
-    _c("h3", [_vm._v(_vm._s(_vm.feature.title))]),
+    _c("h3", { staticClass: "font-mont-bold font-size-18" }, [
+      _vm._v(_vm._s(_vm.feature.title))
+    ]),
     _vm._v(" "),
-    _c("p", [_vm._v(_vm._s(_vm.feature.description))])
+    _c("p", { staticClass: "font-mont font-size-14" }, [
+      _vm._v(_vm._s(_vm.feature.description))
+    ])
   ])
 }
 var staticRenderFns = []
@@ -20168,16 +20180,18 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "container laravel-support" }, [
-        _c("h5", { staticClass: "center-text" }, [
+        _c("h5", { staticClass: "center-text font-mont font-size-23" }, [
           _vm._v("Mendukung Penuh Framework Laravel")
         ]),
+        _vm._v(" "),
+        _c("br"),
         _vm._v(" "),
         _c("div", { staticClass: "row" }, [
           _c(
             "div",
             { staticClass: "col-xs-6 col-md-6" },
             [
-              _c("p", [
+              _c("p", { staticClass: "font-mont font-size-18" }, [
                 _vm._v(
                   "Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda"
                 )
@@ -20185,7 +20199,7 @@ var render = function() {
               _vm._v(" "),
               _vm._m(6),
               _vm._v(" "),
-              _c("p", [
+              _c("p", { staticClass: "font-mont font-size-12" }, [
                 _vm._v(
                   "Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis"
                 )
@@ -20203,7 +20217,7 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "container" }, [
-        _c("h5", { staticClass: "modules-list" }, [
+        _c("h5", { staticClass: "modules-list font-mont font-size-23" }, [
           _vm._v("Modul Lengkap untuk Menjalankan Aplikasi PHP Anda.")
         ]),
         _vm._v(" "),
@@ -20225,13 +20239,17 @@ var render = function() {
         _c("div", { staticClass: "row" }, [
           _c(
             "div",
-            { staticClass: "col-xs-6 col-md-6" },
+            { staticClass: "col-xs-6 col-md-6 linux-hosting-text" },
             [
-              _c("h5", [
+              _c("h5", { staticClass: "font-mont font-size-32" }, [
                 _vm._v("Linux Hosting yang Stabil dengan Teknologi LVE")
               ]),
               _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
               _vm._m(9),
+              _vm._v(" "),
+              _c("br"),
               _vm._v(" "),
               _c("Button", {
                 attrs: { title: "Pilih Hosting Anda", flat: "button-nonflat" }
@@ -20253,7 +20271,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-xs-4 col-md-4 live-chat-button" },
+              { staticClass: "col-xs-2 col-md-2 live-chat-button" },
               [
                 _c("Button", {
                   attrs: { title: "Live Chat", flat: "button-flat-white" }
@@ -20279,10 +20297,15 @@ var staticRenderFns = [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-xs-6 col-md-6 text" }, [
           _c("h1", [
-            _vm._v("\n                    PHP Hosting"),
+            _c("span", { staticClass: "font-mont-bold font-size-32" }, [
+              _vm._v(
+                "\n                        PHP Hosting\n                    "
+              )
+            ]),
+            _vm._v(" "),
             _c("br"),
             _vm._v(" "),
-            _c("span", [
+            _c("span", { staticClass: "font-mont font-size-32" }, [
               _vm._v("\n                        Cepat, handal, penuh dengan"),
               _c("br"),
               _vm._v(
@@ -20293,7 +20316,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("br"),
           _vm._v(" "),
-          _c("ul", [
+          _c("ul", { staticClass: "font-mont font-size-14 green-check" }, [
             _c("li", [
               _vm._v("Solusi PHP untuk performa query yang lebih cepat")
             ]),
@@ -20356,17 +20379,21 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "php-modules-text" }, [
-      _c("div", { staticClass: "item" }, [
-        _c("p", [_vm._v("PHP Zend Guard Loader")])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "item" }, [
-        _c("p", [_vm._v("PHP IonCube Loader")])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "item" }, [_c("p", [_vm._v("PHP Composer")])])
-    ])
+    return _c(
+      "div",
+      { staticClass: "php-modules-text font-mont font-size-14" },
+      [
+        _c("div", { staticClass: "item" }, [
+          _c("p", [_vm._v("PHP Zend Guard Loader")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "item" }, [
+          _c("p", [_vm._v("PHP IonCube Loader")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "item" }, [_c("p", [_vm._v("PHP Composer")])])
+      ]
+    )
   },
   function() {
     var _vm = this
@@ -20383,37 +20410,55 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container powerful-php" }, [
-      _c("h5", [_vm._v("Powerful dengan Limit PHP yang Lebih Besar")]),
+      _c("h5", { staticClass: "font-mont font-size-23" }, [
+        _vm._v("Powerful dengan Limit PHP yang Lebih Besar")
+      ]),
       _vm._v(" "),
       _c("div", { staticClass: "powerful-php-features" }, [
-        _c("div", { staticClass: "powerful-php-tables" }, [
+        _c("div", { staticClass: "powerful-php-tables green-check" }, [
           _c("div", { staticClass: "powerful-php-item" }, [
-            _c("p", [_vm._v("max execution time 300s")])
+            _c("p", { staticClass: "font-mont font-size-14" }, [
+              _vm._v("max execution time 300s")
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "powerful-php-item-grey" }, [
-            _c("p", [_vm._v("max execution time 300s")])
+            _c("p", { staticClass: "font-mont font-size-14" }, [
+              _vm._v("max execution time 300s")
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "powerful-php-item" }, [
-            _c("p", [_vm._v("php memory limit 1024 MB")])
+            _c("p", { staticClass: "font-mont font-size-14" }, [
+              _vm._v("php memory limit 1024 MB")
+            ])
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "powerful-php-tables" }, [
+        _c("div", { staticClass: "powerful-php-tables green-check" }, [
           _c("div", { staticClass: "powerful-php-item" }, [
-            _c("p", [_vm._v("post max size 128 MB")])
+            _c("p", { staticClass: "font-mont font-size-14" }, [
+              _vm._v("post max size 128 MB")
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "powerful-php-item-grey" }, [
-            _c("p", [_vm._v("upload max filesize 12 8MB")])
+            _c("p", { staticClass: "font-mont font-size-14" }, [
+              _vm._v("upload max filesize 12 8MB")
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "powerful-php-item" }, [
-            _c("p", [_vm._v("max input vars 2500")])
+            _c("p", { staticClass: "font-mont font-size-14" }, [
+              _vm._v("max input vars 2500")
+            ])
           ])
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("div", { staticClass: "separator" })
     ])
   },
   function() {
@@ -20421,14 +20466,16 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container features-title" }, [
-      _c("h5", [_vm._v("Semua Paket Hosting sudah Termasuk")])
+      _c("h5", { staticClass: "font-mont font-size-23" }, [
+        _vm._v("Semua Paket Hosting sudah Termasuk")
+      ])
     ])
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("ul", [
+    return _c("ul", { staticClass: "font-mont font-size-14 green-check" }, [
       _c("li", [
         _vm._v("Install Laravel "),
         _c("strong", [_vm._v("1 klik")]),
@@ -20471,7 +20518,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row modules-list-items" }, [
       _c("div", { staticClass: "col-xs-3 col-md-3" }, [
-        _c("ul", [
+        _c("ul", { staticClass: "font-mont" }, [
           _c("li", [_vm._v("IcePHP")]),
           _vm._v(" "),
           _c("li", [_vm._v("apc")]),
@@ -20505,7 +20552,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-xs-3 col-md-3" }, [
-        _c("ul", [
+        _c("ul", { staticClass: "font-mont" }, [
           _c("li", [_vm._v("http")]),
           _vm._v(" "),
           _c("li", [_vm._v("huffman")]),
@@ -20539,7 +20586,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-xs-3 col-md-3" }, [
-        _c("ul", [
+        _c("ul", { staticClass: "font-mont" }, [
           _c("li", [_vm._v("nd_pdo_mysql")]),
           _vm._v(" "),
           _c("li", [_vm._v("oauth")]),
@@ -20573,7 +20620,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-xs-3 col-md-3" }, [
-        _c("ul", [
+        _c("ul", { staticClass: "font-mont" }, [
           _c("li", [_vm._v("stats")]),
           _vm._v(" "),
           _c("li", [_vm._v("stem")]),
@@ -20611,7 +20658,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("p", [
+    return _c("p", { staticClass: "font-mont font-size-14" }, [
       _vm._v("SuperMicro "),
       _c("strong", [_vm._v("Intel Xeon 24-Cores")]),
       _vm._v(" server dengan RAM "),
@@ -20635,7 +20682,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-xs-6 col-md-6" }, [
+    return _c("div", { staticClass: "col-xs-6 col-md-6 linux-hosting-img" }, [
       _c("img", {
         attrs: {
           src: "images/Image support.png",
@@ -20652,7 +20699,9 @@ var staticRenderFns = [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-xs-6 col-md-6 social-share-text" }, [
-            _c("p", [_vm._v("Bagikan jika Anda menyukai halaman ini.")])
+            _c("p", { staticClass: "font-mont font-size-14" }, [
+              _vm._v("Bagikan jika Anda menyukai halaman ini.")
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-xs-6 col-md-6 social-share-list" }, [
@@ -20670,14 +20719,20 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-xs-8 col-md-8 live-chat-text" }, [
-      _c("h2", [
-        _vm._v("Perlu "),
-        _c("strong", [_vm._v("Bantuan?")]),
-        _vm._v(" Hubungi Kami : "),
-        _c("strong", [_vm._v("0274-5305505")])
-      ])
-    ])
+    return _c(
+      "div",
+      {
+        staticClass: "col-xs-10 col-md-10 font-mont font-size-32 live-chat-text"
+      },
+      [
+        _c("h2", [
+          _vm._v("Perlu "),
+          _c("strong", [_vm._v("BANTUAN?")]),
+          _vm._v(" Hubungi Kami : "),
+          _c("strong", [_vm._v("0274-5305505")])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -20712,17 +20767,35 @@ var staticRenderFns = [
       _c("div", { attrs: { id: "top-nav" } }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-xs-4 col-md-4 ebook" }, [
-              _vm._v("\n                One of three columns\n                ")
-            ]),
+            _c(
+              "div",
+              { staticClass: "col-xs-4 col-md-4 ebook font-mont font-size-12" },
+              [
+                _vm._v(
+                  "\n                Gratis Ebook 9 Cara Cerdas Menggunakan Domain [x]\n                "
+                )
+              ]
+            ),
             _vm._v(" "),
-            _c("div", { staticClass: "col-xs-8 col-md-8 contact" }, [
-              _c("div", { staticClass: "contact-item" }, [_vm._v("contact")]),
-              _vm._v(" "),
-              _c("div", { staticClass: "contact-item" }, [_vm._v("contact")]),
-              _vm._v(" "),
-              _c("div", { staticClass: "contact-item" }, [_vm._v("contact")])
-            ])
+            _c(
+              "div",
+              {
+                staticClass: "col-xs-8 col-md-8 contact font-mont font-size-14"
+              },
+              [
+                _c("div", { staticClass: "contact-item" }, [
+                  _vm._v("0274-5305505")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "contact-item" }, [
+                  _vm._v("Live Chat")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "contact-item" }, [
+                  _vm._v("Member Area")
+                ])
+              ]
+            )
           ])
         ])
       ]),
@@ -20740,29 +20813,33 @@ var staticRenderFns = [
               })
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-xs-8 col-md-8 menu" }, [
-              _c("ul", [
-                _c("li", [_vm._v("Hosting")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("Domain")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("Server")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("Website")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("Afiliasi")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("Promo")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("Pembayaran")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("Review")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("Kontak")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("Blog")])
-              ])
-            ])
+            _c(
+              "div",
+              { staticClass: "col-xs-8 col-md-8 menu font-mont font-size-14" },
+              [
+                _c("ul", [
+                  _c("li", [_vm._v("Hosting")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Domain")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Server")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Website")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Afiliasi")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Promo")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Pembayaran")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Review")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Kontak")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Blog")])
+                ])
+              ]
+            )
           ])
         ])
       ])

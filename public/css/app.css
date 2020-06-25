@@ -1,3 +1,71 @@
+.green-check{
+    padding: 10px 0px;
+}
+
+.green-check li{
+    padding: 10px 0px;
+}
+
+.green-check li:before {
+    content: "\f058";
+    font-family: FontAwesome;
+    font-size: 25px;
+    float: left;
+    color: #04b867;
+    margin-top: -9px;
+    margin-right: 10px;
+}
+
+.green-check p:before {
+    content: "\f058";
+    font-family: FontAwesome;
+    font-size: 23px;
+    float: left;
+    color: #04b867;
+    margin-top: -6px;
+    margin-left: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.font-mont {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+
+.font-mont-bold {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: 900;
+    color: #4d4d4d;
+}
+
+.font-size-10 {
+    font-size: 10px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-23 {
+    font-size: 23px;
+}
+
+.font-size-32 {
+    font-size: 32px;
+}
+
 .center-element {
     display: flex;
     justify-content: center;
@@ -28,6 +96,7 @@
 }
 
 #main-nav {
+    padding: 10px 0px;
     border-bottom: 1px solid #1c1c1c1c;
 }
 
@@ -48,7 +117,6 @@
 }
 
 #main-nav li{
-    list-style: none;
     margin-left: 20px;
 }
 
@@ -92,6 +160,7 @@
 }
 
 .features-title {
+    padding-top: 50px;
     text-align: center;
 }
 
@@ -137,11 +206,9 @@
     padding-left: 80px;
 }
 
-.modules-list-items li{
-    list-style: none;
-}
-
 .button-nonflat {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: 900;
     text-align: center;
     padding: 10px 25px;
     border-radius: 30px;
@@ -152,14 +219,19 @@
 }
 
 .button-flat{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: 900;
+    color: #4d4d4d;
     text-align: center;
     padding: 10px 25px;
     border-radius: 30px;
     background: transparent;
-    border: 2px solid #333333;
+    border: 2px solid #4d4d4d;
 }
 
 .button-flat-white{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: 900;
     color: #ffffff;
     text-align: center;
     padding: 10px 25px;
@@ -169,11 +241,21 @@
 }
 
 .laravel-support {
+    padding-top: 50px;
     border-bottom: 1px solid #1c1c1c1c;
 }
 
 .linux-hosting {
     padding-top: 100px;
+}
+
+.linux-hosting-img{
+    display: flex;
+    align-items: flex-end;
+}
+
+.linux-hosting-text {
+    padding-bottom: 50px;
 }
 
 .social-share {
@@ -208,6 +290,7 @@
 }
 
 .live-chat-text{
+    color: white;
     display: flex;
     align-items: center;
     padding-bottom: 0px;
@@ -218,7 +301,8 @@
 }
 
 .live-chat-button{
-    padding: 0px 50px;
+    font-size: 18;
+    padding: 0px 0px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
