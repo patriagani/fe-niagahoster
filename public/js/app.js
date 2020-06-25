@@ -2131,6 +2131,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -2150,6 +2152,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Button_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Button.vue */ "./resources/js/components/Button.vue");
+//
+//
 //
 //
 //
@@ -20252,21 +20256,41 @@ var staticRenderFns = [
             _c("h5", [_vm._v("Layanan")]),
             _vm._v(" "),
             _c("ul", [
-              _c("li", [_vm._v("Domain")]),
+              _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Domain")])]),
               _vm._v(" "),
-              _c("li", [_vm._v("Shared Hosting")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Shared Hosting")])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Cloud VPS Hosting")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Cloud VPS Hosting")])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Managed VPS Hosting")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [
+                  _vm._v("Managed VPS Hosting")
+                ])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Web Builder")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Web Builder")])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Keamanan SSL / HTTPS")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [
+                  _vm._v("Keamanan SSL / HTTPS")
+                ])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Jasa Pembuatan Website")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [
+                  _vm._v("Jasa Pembuatan Website")
+                ])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Program Afiliasi")])
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Program Afiliasi")])
+              ])
             ])
           ]),
           _vm._v(" "),
@@ -20274,17 +20298,31 @@ var staticRenderFns = [
             _c("h5", [_vm._v("Service Hosting")]),
             _vm._v(" "),
             _c("ul", [
-              _c("li", [_vm._v("Hosting Murah")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Hosting Murah")])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Hosting Indonesia")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Hosting Indonesia")])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Hosting Singapura SG")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [
+                  _vm._v("Hosting Singapura SG")
+                ])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Hosting PHP")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Hosting PHP")])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Hosting Wordpress")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Hosting Wordpress")])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Hosting Laravel")])
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Hosting Laravel")])
+              ])
             ])
           ]),
           _vm._v(" "),
@@ -20292,11 +20330,15 @@ var staticRenderFns = [
             _c("h5", [_vm._v("Tutorial")]),
             _vm._v(" "),
             _c("ul", [
-              _c("li", [_vm._v("Knowledgebase")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Knowledgebase")])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Blog")]),
+              _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Blog")])]),
               _vm._v(" "),
-              _c("li", [_vm._v("Cara Pembayaran")])
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Cara Pembayaran")])
+              ])
             ])
           ])
         ]),
@@ -20309,15 +20351,23 @@ var staticRenderFns = [
             _c("h5", [_vm._v("Tentang Kami")]),
             _vm._v(" "),
             _c("ul", [
-              _c("li", [_vm._v("Tim Niagahoster")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Tim Niagahoster")])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Karir")]),
+              _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Karir")])]),
               _vm._v(" "),
-              _c("li", [_vm._v("Events")]),
+              _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Events")])]),
               _vm._v(" "),
-              _c("li", [_vm._v("Penawaran dan Promo Spesial")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [
+                  _vm._v("Penawaran dan Promo Spesial")
+                ])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Kontak Kami")])
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Kontak Kami")])
+              ])
             ])
           ]),
           _vm._v(" "),
@@ -20325,15 +20375,31 @@ var staticRenderFns = [
             _c("h5", [_vm._v("Kenapa Pilih Niagahoster")]),
             _vm._v(" "),
             _c("ul", [
-              _c("li", [_vm._v("Support Terbaik")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Support Terbaik")])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Garasi Harga Termurah")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [
+                  _vm._v("Garasi Harga Termurah")
+                ])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Domain Gratis Selamanya")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [
+                  _vm._v("Domain Gratis Selamanya")
+                ])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Datacenter Hosting Terbaik")]),
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [
+                  _vm._v("Datacenter Hosting Terbaik")
+                ])
+              ]),
               _vm._v(" "),
-              _c("li", [_vm._v("Review Pelanggan")])
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("Review Pelanggan")])
+              ])
             ])
           ]),
           _vm._v(" "),
@@ -20457,9 +20523,9 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "col-xs-3 col-md-3" }, [
             _c("p", { staticStyle: { "font-size": "12px" } }, [
-              _vm._v(
-                "\n                    Syarat dan Ketentuan | Kebijakan Privasi\n                "
-              )
+              _c("a", { attrs: { href: "#" } }, [
+                _vm._v("Syarat dan Ketentuan | Kebijakan Privasi")
+              ])
             ])
           ])
         ])
@@ -20548,30 +20614,32 @@ var render = function() {
     _c("br"),
     _vm._v(" "),
     _c("div", { staticClass: "row" }, [
-      _c(
-        "div",
-        { staticClass: "col-xs-6 col-md-6" },
-        [
-          _c("p", { staticClass: "font-mont font-size-18" }, [
-            _vm._v(
-              "Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda"
-            )
-          ]),
-          _vm._v(" "),
-          _vm._m(0),
-          _vm._v(" "),
-          _c("p", { staticClass: "font-mont font-size-12" }, [
-            _vm._v(
-              "Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis"
-            )
-          ]),
-          _vm._v(" "),
-          _c("Button", {
-            attrs: { title: "Pilih Hosting Anda", flat: "button-nonflat" }
-          })
-        ],
-        1
-      ),
+      _c("div", { staticClass: "col-xs-6 col-md-6" }, [
+        _c("p", { staticClass: "font-mont font-size-18" }, [
+          _vm._v(
+            "Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda"
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0),
+        _vm._v(" "),
+        _c("p", { staticClass: "font-mont font-size-12" }, [
+          _vm._v(
+            "Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis"
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "laravel-support-button" },
+          [
+            _c("Button", {
+              attrs: { title: "Pilih Hosting Anda", flat: "button-nonflat" }
+            })
+          ],
+          1
+        )
+      ]),
       _vm._v(" "),
       _vm._m(1)
     ])
@@ -20643,26 +20711,28 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container linux-hosting" }, [
     _c("div", { staticClass: "row" }, [
-      _c(
-        "div",
-        { staticClass: "col-xs-6 col-md-6 linux-hosting-text" },
-        [
-          _c("h5", { staticClass: "font-mont font-size-32" }, [
-            _vm._v("Linux Hosting yang Stabil dengan Teknologi LVE")
-          ]),
-          _vm._v(" "),
-          _c("br"),
-          _vm._v(" "),
-          _vm._m(0),
-          _vm._v(" "),
-          _c("br"),
-          _vm._v(" "),
-          _c("Button", {
-            attrs: { title: "Pilih Hosting Anda", flat: "button-nonflat" }
-          })
-        ],
-        1
-      ),
+      _c("div", { staticClass: "col-xs-6 col-md-6 linux-hosting-text" }, [
+        _c("h5", { staticClass: "font-mont font-size-32" }, [
+          _vm._v("Linux Hosting yang Stabil dengan Teknologi LVE")
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _vm._m(0),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "linux-hosting-button" },
+          [
+            _c("Button", {
+              attrs: { title: "Pilih Hosting Anda", flat: "button-nonflat" }
+            })
+          ],
+          1
+        )
+      ]),
       _vm._v(" "),
       _vm._m(1)
     ])
@@ -20755,24 +20825,28 @@ var staticRenderFns = [
             ]
           ),
           _vm._v(" "),
-          _c("div", { staticClass: "col-xs-2 col-md-2 live-chat-button" }, [
-            _c("div", { staticClass: "livechat-button" }, [
-              _c("i", {
-                staticClass: "fa fa-comments fa-2x",
-                staticStyle: { "margin-right": "10px" },
-                attrs: { "aria-hidden": "true" }
-              }),
-              _vm._v(" "),
-              _c(
-                "p",
-                {
-                  staticClass: "font-mont-bold font-size 23",
-                  staticStyle: { color: "#ffffff", margin: "0px" }
-                },
-                [_vm._v("Live Chat")]
-              )
-            ])
-          ])
+          _c(
+            "div",
+            { staticClass: "col-xs-2 col-md-2 live-chat-button-container" },
+            [
+              _c("div", { staticClass: "livechat-button" }, [
+                _c("i", {
+                  staticClass: "fa fa-comments fa-2x",
+                  staticStyle: { "margin-right": "10px" },
+                  attrs: { "aria-hidden": "true" }
+                }),
+                _vm._v(" "),
+                _c(
+                  "p",
+                  {
+                    staticClass: "font-size 23",
+                    staticStyle: { margin: "0px" }
+                  },
+                  [_vm._v("Live Chat")]
+                )
+              ])
+            ]
+          )
         ])
       ])
     ])
@@ -20986,10 +21060,10 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
+    return _c("div", { staticClass: "navigation-bar" }, [
       _c("div", { staticClass: "top-nav" }, [
         _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "row top-nav-container" }, [
             _c(
               "div",
               { staticClass: "col-xs-5 col-md-5 ebook font-mont font-size-12" },
@@ -21068,25 +21142,45 @@ var staticRenderFns = [
               },
               [
                 _c("ul", [
-                  _c("li", [_vm._v("Hosting")]),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Hosting")])
+                  ]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("Domain")]),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Domain")])
+                  ]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("Server")]),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Server")])
+                  ]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("Website")]),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Website")])
+                  ]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("Afiliasi")]),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Afiliasi")])
+                  ]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("Promo")]),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Promo")])
+                  ]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("Pembayaran")]),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Pembayaran")])
+                  ]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("Review")]),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Review")])
+                  ]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("Kontak")]),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Kontak")])
+                  ]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("Blog")])
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [_vm._v("Blog")])
+                  ])
                 ])
               ]
             )
@@ -21210,7 +21304,13 @@ var staticRenderFns = [
               src: "images/icon_PHP_Hosting_zendguard.svg",
               alt: "Zend Guard Loader"
             }
-          })
+          }),
+          _vm._v(" "),
+          _c(
+            "p",
+            { staticClass: "php-modules-text-res font-mont font-size-14" },
+            [_vm._v("PHP Zend Guard Loaders")]
+          )
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "item" }, [
@@ -21219,7 +21319,13 @@ var staticRenderFns = [
               src: "images/icon_PHP_Hosting_composer.svg",
               alt: "Composer"
             }
-          })
+          }),
+          _vm._v(" "),
+          _c(
+            "p",
+            { staticClass: "php-modules-text-res font-mont font-size-14" },
+            [_vm._v("PHP Composers")]
+          )
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "item" }, [
@@ -21228,7 +21334,13 @@ var staticRenderFns = [
               src: "images/icon_PHP_Hosting_ioncube.svg",
               alt: "IonCube Loader"
             }
-          })
+          }),
+          _vm._v(" "),
+          _c(
+            "p",
+            { staticClass: "php-modules-text-res font-mont font-size-14" },
+            [_vm._v("PHP IonCube Loaders")]
+          )
         ])
       ]),
       _vm._v(" "),
@@ -21237,11 +21349,11 @@ var staticRenderFns = [
           _c("p", [_vm._v("PHP Zend Guard Loader")])
         ]),
         _vm._v(" "),
+        _c("div", { staticClass: "item" }, [_c("p", [_vm._v("PHP Composer")])]),
+        _vm._v(" "),
         _c("div", { staticClass: "item" }, [
           _c("p", [_vm._v("PHP IonCube Loader")])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "item" }, [_c("p", [_vm._v("PHP Composer")])])
+        ])
       ])
     ])
   }

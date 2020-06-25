@@ -11,7 +11,9 @@
                         <li>Tersedia <strong>Composer</strong> dan <strong>SSH</strong> untuk menginstall packages pilihan Anda</li>
                     </ul>
                     <p class="font-mont font-size-12">Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis</p>
-                    <Button :title="'Pilih Hosting Anda'" :flat="'button-nonflat'"/>
+                    <div class="laravel-support-button">
+                        <Button :title="'Pilih Hosting Anda'" :flat="'button-nonflat'"/>
+                    </div>
                 </div>
                 <div class="col-xs-6 col-md-6">
                     <img src="images/illustration banner support laravel hosting.svg" alt="Mendukung Penuh Framework Laravel">

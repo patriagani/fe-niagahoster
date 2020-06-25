@@ -18,33 +18,33 @@
                 <div class="col-xs-3 col-md-3">
                     <h5>Layanan</h5>
                     <ul>
-                        <li>Domain</li>
-                        <li>Shared Hosting</li>
-                        <li>Cloud VPS Hosting</li>
-                        <li>Managed VPS Hosting</li>
-                        <li>Web Builder</li>
-                        <li>Keamanan SSL / HTTPS</li>
-                        <li>Jasa Pembuatan Website</li>
-                        <li>Program Afiliasi</li>
+                        <li><a href="#">Domain</a></li>
+                        <li><a href="#">Shared Hosting</a></li>
+                        <li><a href="#">Cloud VPS Hosting</a></li>
+                        <li><a href="#">Managed VPS Hosting</a></li>
+                        <li><a href="#">Web Builder</a></li>
+                        <li><a href="#">Keamanan SSL / HTTPS</a></li>
+                        <li><a href="#">Jasa Pembuatan Website</a></li>
+                        <li><a href="#">Program Afiliasi</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-3 col-md-3">
                     <h5>Service Hosting</h5>
                     <ul>
-                        <li>Hosting Murah</li>
-                        <li>Hosting Indonesia</li>
-                        <li>Hosting Singapura SG</li>
-                        <li>Hosting PHP</li>
-                        <li>Hosting Wordpress</li>
-                        <li>Hosting Laravel</li>
+                        <li><a href="#">Hosting Murah</a></li>
+                        <li><a href="#">Hosting Indonesia</a></li>
+                        <li><a href="#">Hosting Singapura SG</a></li>
+                        <li><a href="#">Hosting PHP</a></li>
+                        <li><a href="#">Hosting Wordpress</a></li>
+                        <li><a href="#">Hosting Laravel</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-3 col-md-3">
                     <h5>Tutorial</h5>
                     <ul>
-                        <li>Knowledgebase</li>
-                        <li>Blog</li>
-                        <li>Cara Pembayaran</li>
+                        <li><a href="#">Knowledgebase</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Cara Pembayaran</a></li>
                     </ul>
                 </div>
             </div>
@@ -53,21 +53,21 @@
                 <div class="col-xs-3 col-md-3">
                     <h5>Tentang Kami</h5>
                     <ul>
-                        <li>Tim Niagahoster</li>
-                        <li>Karir</li>
-                        <li>Events</li>
-                        <li>Penawaran dan Promo Spesial</li>
-                        <li>Kontak Kami</li>
+                        <li><a href="#">Tim Niagahoster</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Penawaran dan Promo Spesial</a></li>
+                        <li><a href="#">Kontak Kami</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-3 col-md-3">
                     <h5>Kenapa Pilih Niagahoster</h5>
                     <ul>
-                        <li>Support Terbaik</li>
-                        <li>Garasi Harga Termurah</li>
-                        <li>Domain Gratis Selamanya</li>
-                        <li>Datacenter Hosting Terbaik</li>
-                        <li>Review Pelanggan</li>
+                        <li><a href="#">Support Terbaik</a></li>
+                        <li><a href="#">Garasi Harga Termurah</a></li>
+                        <li><a href="#">Domain Gratis Selamanya</a></li>
+                        <li><a href="#">Datacenter Hosting Terbaik</a></li>
+                        <li><a href="#">Review Pelanggan</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-6 col-md-6">
@@ -120,7 +120,7 @@
                 </div>
                 <div class="col-xs-3 col-md-3">
                     <p style="font-size: 12px;">
-                        Syarat dan Ketentuan | Kebijakan Privasi
+                        <a href="#">Syarat dan Ketentuan | Kebijakan Privasi</a>
                     </p>
                 </div>
             </div>

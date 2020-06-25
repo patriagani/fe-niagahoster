@@ -98,6 +98,16 @@ li{
     text-align: center;
 }
 
+.navigation-bar a {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+.navigation-bar a:hover {
+    color: #288eea;
+    text-decoration: none;
+}
+
 .top-nav {
     padding: 10px 0px;
     border-bottom: 1px solid #1c1c1c1c;
@@ -116,6 +126,16 @@ li{
 
 .top-nav .contact-item{
     margin-left: 20px;    
+}
+
+.top-nav .contact-item:hover{
+    cursor: pointer;
+    color: #288eea;    
+}
+
+.top-nav .ebook p:hover{
+    cursor: pointer;
+    color: #288eea;    
 }
 
 .main-nav {
@@ -138,6 +158,7 @@ li{
     flex-wrap: wrap;
     justify-content: flex-end;
     margin: 0px;
+    padding: 0px
 }
 
 .main-nav li{
@@ -157,10 +178,16 @@ li{
 }
 
 .php-modules .item {
+    text-align: center;
     width: 300px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+}
+
+.php-modules-text-res {
+    padding: 20px 0px;
+    display: none;
 }
 
 .php-modules-text {
@@ -210,8 +237,8 @@ li{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
-    border-bottom: 5px solid #1c1c1c1c;
+    width: 80px;
+    border-bottom: 5px solid #ececec;
 }
 
 .modules-list {
@@ -324,18 +351,12 @@ li{
     margin-bottom: 0px;
 }
 
-.live-chat-button{
+.live-chat-button-container{
     font-size: 18;
     padding: 0px 0px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-.footer {
-    padding-top: 80px;
-    color: #ffffff;
-    background: #333333;
 }
 
 .powerful-php{
@@ -365,6 +386,20 @@ li{
 
 .powerful-php p{
     margin: 5px 0px;
+}
+
+.footer {
+    padding-top: 80px;
+    color: #ffffff;
+    background: #333333;
+}
+
+.footer a {
+    color: #d7d7d7;
+}
+
+.footer a:hover {
+    color: #ffffff;
 }
 
 .footer ul {
@@ -502,6 +537,12 @@ li{
     border: 2px solid #cfcfcf;
 }
 
+.social-circle:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    cursor: pointer;
+}
+
 .newsletter-button {
     font-family: 'Montserrat-bold', sans-serif;
     position: absolute;
@@ -518,6 +559,8 @@ li{
 }
 
 .livechat-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -527,4 +570,134 @@ li{
     border-radius: 30px;
     background: transparent;
     border: 2px solid #ffffff;
+}
+
+.livechat-button:hover {
+    color: #45a2f3;
+    background: #ffffff;
+    border: 2px solid #45a2f3;
+}
+
+@media only screen and (max-width: 800px) {
+    .top-nav .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-nav .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-nav ul{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .php-hosting h1{
+        text-align: center;
+    }
+
+    .php-modules-text-res {
+        padding: 20px 0px;
+        display: block;
+    }
+
+    .php-modules-text {
+        display: none;
+    }
+
+    .laravel-support h5{
+        text-align: center;
+    }
+
+    .laravel-support p{
+        text-align: center;
+    }
+
+    .laravel-support-button{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .modules-list-items ul{
+        text-align: center;
+        padding: 0px;
+    }
+
+    .linux-hosting-text h5{
+        text-align: center;
+    }
+
+    .linux-hosting-text p{
+        text-align: center;
+    }
+
+    .linux-hosting-button {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .social-share-text {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .social-share-list {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .live-chat-text {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .live-chat-button-container {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+    .footer h5 {
+        padding-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .payment-systems-list {
+        justify-content: center;
+    }
+
+    .newsletter-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-circle {
+        margin: 0px 10px;
+    }
+  }
+
+@media only screen and (max-width: 1000px) {
+
+    .php-modules-text-res {
+        padding: 20px 0px;
+        display: block;
+    }
+
+    .php-modules-text {
+        display: none;
+    }
+
 }
