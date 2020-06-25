@@ -7,20 +7,20 @@
         <div class="container pricing-tables">
             <div class="table">
                 <div class="package">
-                    <h2>Bayi</h2>
+                    <h2>{{packages[0].name}}</h2>
                 </div>
                 <div class="price">
                     <div class="realprice font-mont">
-                        <strike>Rp 19.900</strike>
+                        <strike>{{packages[0].price}}</strike>
                     </div>
                     <div class="discounted">
                         <sup><span>Rp</span></sup>
-                        <span class="font-mont-bold font-size-50">14</span>
-                        <sup><span class="font-mont-bold">.900/</span><span>bln</span></sup>
+                        <span class="font-mont-bold font-size-50">{{packages[0].discounted.substring(3,5)}}</span>
+                        <sup><span class="font-mont-bold">{{packages[0].discounted.substring(5,9)}}/</span><span>bln</span></sup>
                     </div>
                 </div>
                 <div class="users font-mont font-size-13">
-                    <strong>938</strong> Pengguna Terdaftar
+                    <strong>{{packages[0].users}}</strong> Pengguna Terdaftar
                 </div>
                 <div class="package-features">
                     <ul class="font-size-13">
@@ -38,20 +38,20 @@
             </div>
              <div class="table">
                 <div class="package">
-                    <h2>Pelajar</h2>
+                    <h2>{{packages[1].name}}</h2>
                 </div>
                 <div class="price">
                     <div class="realprice font-mont">
-                        <strike>Rp 46.900</strike>
+                        <strike>{{packages[1].price}}</strike>
                     </div>
                     <div class="discounted">
                         <sup><span>Rp</span></sup>
-                        <span class="font-mont-bold font-size-50">23</span>
-                        <sup><span class="font-mont-bold">.450/</span><span>bln</span></sup>
+                        <span class="font-mont-bold font-size-50">{{packages[1].discounted.substring(3,5)}}</span>
+                        <sup><span class="font-mont-bold">{{packages[1].discounted.substring(5,9)}}/</span><span>bln</span></sup>
                     </div>
                 </div>
                 <div class="users font-mont font-size-13">
-                    <strong>4.168</strong> Pengguna Terdaftar
+                    <strong>{{packages[1].users}}</strong> Pengguna Terdaftar
                 </div>
                 <div class="package-features">
                     <ul class="font-size-13">
@@ -69,26 +69,26 @@
                 <br>
                 <Button :title="'Pilih Sekarang'" :flat="'button-flat'"/>
             </div>
-            <div>
+            <div class="table" style="border: 1px solid #298eea;">
                 <div class="pop">
                     <img src="images/ribbon-best-seller.webp" alt="Best Seller">
                 </div>
-                <div class="table" style="border: 1px solid #298eea;">
+                <div>
                     <div class="package" style="background: #298eea; border-bottom: 1px solid #298eea;">
-                        <h2 style="color: #ffffff;">Personal</h2>
+                        <h2 style="color: #ffffff;">{{packages[2].name}}</h2>
                     </div>
                     <div class="price" style="background: #298eea; color: #ffffff;">
                         <div class="realprice font-mont" style="color: #ffffff;">
-                            <strike>Rp 58.900</strike>
+                            <strike>{{packages[2].price}}</strike>
                         </div>
                         <div class="discounted">
                             <sup><span>Rp</span></sup>
-                            <span class="font-mont-bold font-size-50" style="color: #ffffff;">38</span>
-                            <sup><span class="font-mont-bold" style="color: #ffffff;">.900/</span><span>bln</span></sup>
+                            <span class="font-mont-bold font-size-50" style="color: #ffffff;">{{packages[2].discounted.substring(3,5)}}</span>
+                            <sup><span class="font-mont-bold" style="color: #ffffff;">{{packages[2].discounted.substring(5,9)}}/</span><span>bln</span></sup>
                         </div>
                     </div>
                     <div class="users font-mont font-size-13" style="background: #177eda; color: #ffffff; border-top: 1px solid #177eda; border-bottom: 1px solid #177eda;">
-                        <strong>10.017</strong> Pengguna Terdaftar
+                        <strong>{{packages[2].users}}</strong> Pengguna Terdaftar
                     </div>
                     <div class="package-features">
                         <ul class="font-size-13">
@@ -111,16 +111,16 @@
             </div>
              <div class="table">
                 <div class="package">
-                    <h2>Bisnis</h2>
+                    <h2>{{packages[3].name}}</h2>
                 </div>
                 <div class="price">
                     <div class="realprice font-mont">
-                        <strike>Rp 109.900</strike>
+                        <strike>{{packages[3].price}}</strike>
                     </div>
                     <div class="discounted">
                         <sup><span>Rp</span></sup>
-                        <span class="font-mont-bold font-size-50">65</span>
-                        <sup><span class="font-mont-bold">.900/</span><span>bln</span></sup>
+                        <span class="font-mont-bold font-size-50">{{packages[3].discounted.substring(3,5)}}</span>
+                        <sup><span class="font-mont-bold">{{packages[3].discounted.substring(5,9)}}/</span><span>bln</span></sup>
                     </div>
                 </div>
                 <div class="users font-mont font-size-13">
@@ -152,10 +152,25 @@
 
 <script>
     import Button from './Button.vue';
+    import axios from 'axios';
 
     export default {
         components: {
             Button,
+        },
+        data() {
+            return {
+                packages: []
+            }
+        },
+        created() {
+            axios.get('api/pricing')
+                .then((response) => {
+                    this.packages = response.data
+                })
+                .catch((error) => {
+                    console.log(error)
+                })
         }
     }
 </script>

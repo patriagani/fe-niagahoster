@@ -2326,6 +2326,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Button_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Button.vue */ "./resources/js/components/Button.vue");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -2479,9 +2481,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     Button: _Button_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  data: function data() {
+    return {
+      packages: []
+    };
+  },
+  created: function created() {
+    var _this = this;
+
+    axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('api/pricing').then(function (response) {
+      _this.packages = response.data;
+    })["catch"](function (error) {
+      console.log(error);
+    });
   }
 });
 
@@ -21284,20 +21301,90 @@ var render = function() {
         "div",
         { staticClass: "table" },
         [
-          _vm._m(1),
+          _c("div", { staticClass: "package" }, [
+            _c("h2", [_vm._v(_vm._s(_vm.packages[0].name))])
+          ]),
           _vm._v(" "),
           _c("div", { staticClass: "price" }, [
             _c(
               "div",
               { staticClass: "realprice font-mont" },
-              [_c("strike", [_vm._v("Rp 19.900")])],
+              [_c("strike", [_vm._v(_vm._s(_vm.packages[0].price))])],
               1
             ),
             _vm._v(" "),
-            _vm._m(2)
+            _c("div", { staticClass: "discounted" }, [
+              _vm._m(1),
+              _vm._v(" "),
+              _c("span", { staticClass: "font-mont-bold font-size-50" }, [
+                _vm._v(_vm._s(_vm.packages[0].discounted.substring(3, 5)))
+              ]),
+              _vm._v(" "),
+              _c("sup", [
+                _c("span", { staticClass: "font-mont-bold" }, [
+                  _vm._v(
+                    _vm._s(_vm.packages[0].discounted.substring(5, 9)) + "/"
+                  )
+                ]),
+                _c("span", [_vm._v("bln")])
+              ])
+            ])
           ]),
           _vm._v(" "),
-          _vm._m(3),
+          _c("div", { staticClass: "users font-mont font-size-13" }, [
+            _c("strong", [_vm._v(_vm._s(_vm.packages[0].users))]),
+            _vm._v(" Pengguna Terdaftar\n            ")
+          ]),
+          _vm._v(" "),
+          _vm._m(2),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("Button", {
+            attrs: { title: "Pilih Sekarang", flat: "button-flat" }
+          })
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "table" },
+        [
+          _c("div", { staticClass: "package" }, [
+            _c("h2", [_vm._v(_vm._s(_vm.packages[1].name))])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "price" }, [
+            _c(
+              "div",
+              { staticClass: "realprice font-mont" },
+              [_c("strike", [_vm._v(_vm._s(_vm.packages[1].price))])],
+              1
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "discounted" }, [
+              _vm._m(3),
+              _vm._v(" "),
+              _c("span", { staticClass: "font-mont-bold font-size-50" }, [
+                _vm._v(_vm._s(_vm.packages[1].discounted.substring(3, 5)))
+              ]),
+              _vm._v(" "),
+              _c("sup", [
+                _c("span", { staticClass: "font-mont-bold" }, [
+                  _vm._v(
+                    _vm._s(_vm.packages[1].discounted.substring(5, 9)) + "/"
+                  )
+                ]),
+                _c("span", [_vm._v("bln")])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "users font-mont font-size-13" }, [
+            _c("strong", [_vm._v(_vm._s(_vm.packages[1].users))]),
+            _vm._v(" Pengguna Terdaftar\n            ")
+          ]),
           _vm._v(" "),
           _vm._m(4),
           _vm._v(" "),
@@ -21312,101 +21399,149 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "table" },
+        { staticClass: "table", staticStyle: { border: "1px solid #298eea" } },
         [
           _vm._m(5),
           _vm._v(" "),
-          _c("div", { staticClass: "price" }, [
-            _c(
-              "div",
-              { staticClass: "realprice font-mont" },
-              [_c("strike", [_vm._v("Rp 46.900")])],
-              1
-            ),
-            _vm._v(" "),
-            _vm._m(6)
-          ]),
-          _vm._v(" "),
-          _vm._m(7),
-          _vm._v(" "),
-          _vm._m(8),
-          _vm._v(" "),
-          _c("br"),
-          _vm._v(" "),
-          _c("Button", {
-            attrs: { title: "Pilih Sekarang", flat: "button-flat" }
-          })
-        ],
-        1
+          _c(
+            "div",
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "package",
+                  staticStyle: {
+                    background: "#298eea",
+                    "border-bottom": "1px solid #298eea"
+                  }
+                },
+                [
+                  _c("h2", { staticStyle: { color: "#ffffff" } }, [
+                    _vm._v(_vm._s(_vm.packages[2].name))
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "price",
+                  staticStyle: { background: "#298eea", color: "#ffffff" }
+                },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "realprice font-mont",
+                      staticStyle: { color: "#ffffff" }
+                    },
+                    [_c("strike", [_vm._v(_vm._s(_vm.packages[2].price))])],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "discounted" }, [
+                    _vm._m(6),
+                    _vm._v(" "),
+                    _c(
+                      "span",
+                      {
+                        staticClass: "font-mont-bold font-size-50",
+                        staticStyle: { color: "#ffffff" }
+                      },
+                      [
+                        _vm._v(
+                          _vm._s(_vm.packages[2].discounted.substring(3, 5))
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("sup", [
+                      _c(
+                        "span",
+                        {
+                          staticClass: "font-mont-bold",
+                          staticStyle: { color: "#ffffff" }
+                        },
+                        [
+                          _vm._v(
+                            _vm._s(_vm.packages[2].discounted.substring(5, 9)) +
+                              "/"
+                          )
+                        ]
+                      ),
+                      _c("span", [_vm._v("bln")])
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "users font-mont font-size-13",
+                  staticStyle: {
+                    background: "#177eda",
+                    color: "#ffffff",
+                    "border-top": "1px solid #177eda",
+                    "border-bottom": "1px solid #177eda"
+                  }
+                },
+                [
+                  _c("strong", [_vm._v(_vm._s(_vm.packages[2].users))]),
+                  _vm._v(" Pengguna Terdaftar\n                ")
+                ]
+              ),
+              _vm._v(" "),
+              _vm._m(7),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("Button", {
+                attrs: { title: "Pilih Sekarang", flat: "button-nonflat" }
+              })
+            ],
+            1
+          )
+        ]
       ),
-      _vm._v(" "),
-      _c("div", [
-        _vm._m(9),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "table",
-            staticStyle: { border: "1px solid #298eea" }
-          },
-          [
-            _vm._m(10),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "price",
-                staticStyle: { background: "#298eea", color: "#ffffff" }
-              },
-              [
-                _c(
-                  "div",
-                  {
-                    staticClass: "realprice font-mont",
-                    staticStyle: { color: "#ffffff" }
-                  },
-                  [_c("strike", [_vm._v("Rp 58.900")])],
-                  1
-                ),
-                _vm._v(" "),
-                _vm._m(11)
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(12),
-            _vm._v(" "),
-            _vm._m(13),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("Button", {
-              attrs: { title: "Pilih Sekarang", flat: "button-nonflat" }
-            })
-          ],
-          1
-        )
-      ]),
       _vm._v(" "),
       _c(
         "div",
         { staticClass: "table" },
         [
-          _vm._m(14),
+          _c("div", { staticClass: "package" }, [
+            _c("h2", [_vm._v(_vm._s(_vm.packages[3].name))])
+          ]),
           _vm._v(" "),
           _c("div", { staticClass: "price" }, [
             _c(
               "div",
               { staticClass: "realprice font-mont" },
-              [_c("strike", [_vm._v("Rp 109.900")])],
+              [_c("strike", [_vm._v(_vm._s(_vm.packages[3].price))])],
               1
             ),
             _vm._v(" "),
-            _vm._m(15)
+            _c("div", { staticClass: "discounted" }, [
+              _vm._m(8),
+              _vm._v(" "),
+              _c("span", { staticClass: "font-mont-bold font-size-50" }, [
+                _vm._v(_vm._s(_vm.packages[3].discounted.substring(3, 5)))
+              ]),
+              _vm._v(" "),
+              _c("sup", [
+                _c("span", { staticClass: "font-mont-bold" }, [
+                  _vm._v(
+                    _vm._s(_vm.packages[3].discounted.substring(5, 9)) + "/"
+                  )
+                ]),
+                _c("span", [_vm._v("bln")])
+              ])
+            ])
           ]),
           _vm._v(" "),
-          _vm._m(16),
+          _vm._m(9),
           _vm._v(" "),
-          _vm._m(17),
+          _vm._m(10),
           _vm._v(" "),
           _c("br"),
           _vm._v(" "),
@@ -21438,33 +21573,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "package" }, [_c("h2", [_vm._v("Bayi")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "discounted" }, [
-      _c("sup", [_c("span", [_vm._v("Rp")])]),
-      _vm._v(" "),
-      _c("span", { staticClass: "font-mont-bold font-size-50" }, [
-        _vm._v("14")
-      ]),
-      _vm._v(" "),
-      _c("sup", [
-        _c("span", { staticClass: "font-mont-bold" }, [_vm._v(".900/")]),
-        _c("span", [_vm._v("bln")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "users font-mont font-size-13" }, [
-      _c("strong", [_vm._v("938")]),
-      _vm._v(" Pengguna Terdaftar\n            ")
-    ])
+    return _c("sup", [_c("span", [_vm._v("Rp")])])
   },
   function() {
     var _vm = this
@@ -21495,35 +21604,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "package" }, [
-      _c("h2", [_vm._v("Pelajar")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "discounted" }, [
-      _c("sup", [_c("span", [_vm._v("Rp")])]),
-      _vm._v(" "),
-      _c("span", { staticClass: "font-mont-bold font-size-50" }, [
-        _vm._v("23")
-      ]),
-      _vm._v(" "),
-      _c("sup", [
-        _c("span", { staticClass: "font-mont-bold" }, [_vm._v(".450/")]),
-        _c("span", [_vm._v("bln")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "users font-mont font-size-13" }, [
-      _c("strong", [_vm._v("4.168")]),
-      _vm._v(" Pengguna Terdaftar\n            ")
-    ])
+    return _c("sup", [_c("span", [_vm._v("Rp")])])
   },
   function() {
     var _vm = this
@@ -21571,64 +21652,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "package",
-        staticStyle: {
-          background: "#298eea",
-          "border-bottom": "1px solid #298eea"
-        }
-      },
-      [_c("h2", { staticStyle: { color: "#ffffff" } }, [_vm._v("Personal")])]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "discounted" }, [
-      _c("sup", [_c("span", [_vm._v("Rp")])]),
-      _vm._v(" "),
-      _c(
-        "span",
-        {
-          staticClass: "font-mont-bold font-size-50",
-          staticStyle: { color: "#ffffff" }
-        },
-        [_vm._v("38")]
-      ),
-      _vm._v(" "),
-      _c("sup", [
-        _c(
-          "span",
-          { staticClass: "font-mont-bold", staticStyle: { color: "#ffffff" } },
-          [_vm._v(".900/")]
-        ),
-        _c("span", [_vm._v("bln")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "users font-mont font-size-13",
-        staticStyle: {
-          background: "#177eda",
-          color: "#ffffff",
-          "border-top": "1px solid #177eda",
-          "border-bottom": "1px solid #177eda"
-        }
-      },
-      [
-        _c("strong", [_vm._v("10.017")]),
-        _vm._v(" Pengguna Terdaftar\n                ")
-      ]
-    )
+    return _c("sup", [_c("span", [_vm._v("Rp")])])
   },
   function() {
     var _vm = this
@@ -21673,24 +21697,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "package" }, [_c("h2", [_vm._v("Bisnis")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "discounted" }, [
-      _c("sup", [_c("span", [_vm._v("Rp")])]),
-      _vm._v(" "),
-      _c("span", { staticClass: "font-mont-bold font-size-50" }, [
-        _vm._v("65")
-      ]),
-      _vm._v(" "),
-      _c("sup", [
-        _c("span", { staticClass: "font-mont-bold" }, [_vm._v(".900/")]),
-        _c("span", [_vm._v("bln")])
-      ])
-    ])
+    return _c("sup", [_c("span", [_vm._v("Rp")])])
   },
   function() {
     var _vm = this
