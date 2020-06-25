@@ -341,3 +341,42 @@ li{
 .powerful-php p{
     margin: 5px 0px;
 }
+
+.footer ul {
+    padding: 0px;
+}
+
+.footer h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: #8d8d8d;
+}
+
+.footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #d7d7d7;
+}
+
+.footer li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #d7d7d7;
+    padding-top: 5px;
+}
+
+.payment-systems-list{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.payment-systems-list img{
+    max-width: 77px;
+    height: auto;
+    margin-right: 5px;
+}

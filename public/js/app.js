@@ -19990,54 +19990,52 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-xs-3 col-md-3" }, [
             _c("h5", [_vm._v("Layanan")]),
             _vm._v(" "),
-            _c("p", [
-              _vm._v("\n                    Domain"),
-              _c("br"),
-              _vm._v("\n                    Shared Hosting"),
-              _c("br"),
-              _vm._v("\n                    Cloud VPS Hosting"),
-              _c("br"),
-              _vm._v("\n                    Managed VPS Hosting"),
-              _c("br"),
-              _vm._v("\n                    Web Builder"),
-              _c("br"),
-              _vm._v("\n                    Keamanan SSL / HTTPS"),
-              _c("br"),
-              _vm._v("\n                    Jasa Pembuatan Website"),
-              _c("br"),
-              _vm._v("\n                    Program Afiliasi\n                ")
+            _c("ul", [
+              _c("li", [_vm._v("Domain")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Shared Hosting")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Cloud VPS Hosting")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Managed VPS Hosting")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Web Builder")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Keamanan SSL / HTTPS")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Jasa Pembuatan Website")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Program Afiliasi")])
             ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-xs-3 col-md-3" }, [
             _c("h5", [_vm._v("Service Hosting")]),
             _vm._v(" "),
-            _c("p", [
-              _vm._v("\n                    Hosting Murah"),
-              _c("br"),
-              _vm._v("\n                    Hosting Indonesia"),
-              _c("br"),
-              _vm._v("\n                    Hosting Singapura SG"),
-              _c("br"),
-              _vm._v("\n                    Hosting PHP"),
-              _c("br"),
-              _vm._v("\n                    Hosting Wordpress"),
-              _c("br"),
-              _vm._v("\n                    Hosting Laravel"),
-              _c("br")
+            _c("ul", [
+              _c("li", [_vm._v("Hosting Murah")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Hosting Indonesia")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Hosting Singapura SG")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Hosting PHP")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Hosting Wordpress")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Hosting Laravel")])
             ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-xs-3 col-md-3" }, [
             _c("h5", [_vm._v("Tutorial")]),
             _vm._v(" "),
-            _c("p", [
-              _vm._v("\n                    Knowledgebase"),
-              _c("br"),
-              _vm._v("\n                    Blog"),
-              _c("br"),
-              _vm._v("\n                    Cara Pembayaran"),
-              _c("br")
+            _c("ul", [
+              _c("li", [_vm._v("Knowledgebase")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Blog")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Cara Pembayaran")])
             ])
           ])
         ]),
@@ -20049,32 +20047,32 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-xs-3 col-md-3" }, [
             _c("h5", [_vm._v("Tentang Kami")]),
             _vm._v(" "),
-            _c("p", [
-              _vm._v("\n                    Tim Niagahoster"),
-              _c("br"),
-              _vm._v("\n                    Karir"),
-              _c("br"),
-              _vm._v("\n                    Events"),
-              _c("br"),
-              _vm._v("\n                    Penawaran dan Promo Spesial"),
-              _c("br"),
-              _vm._v("\n                    Kontak Kami\n                ")
+            _c("ul", [
+              _c("li", [_vm._v("Tim Niagahoster")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Karir")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Events")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Penawaran dan Promo Spesial")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Kontak Kami")])
             ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-xs-3 col-md-3" }, [
             _c("h5", [_vm._v("Kenapa Pilih Niagahoster")]),
             _vm._v(" "),
-            _c("p", [
-              _vm._v("\n                    Support Terbaik"),
-              _c("br"),
-              _vm._v("\n                    Garasi Harga Termurah"),
-              _c("br"),
-              _vm._v("\n                    Domain Gratis Selamanya"),
-              _c("br"),
-              _vm._v("\n                    Datacenter Hosting Terbaik"),
-              _c("br"),
-              _vm._v("\n                    Review Pelanggan\n                ")
+            _c("ul", [
+              _c("li", [_vm._v("Support Terbaik")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Garasi Harga Termurah")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Domain Gratis Selamanya")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Datacenter Hosting Terbaik")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Review Pelanggan")])
             ])
           ]),
           _vm._v(" "),
@@ -20088,11 +20086,39 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "row payment-systems" }, [
           _c("div", { staticClass: "col-xs-12 col-md-12" }, [
-            _c("h5", [_vm._v("Pembayaran")]),
+            _c("h5", { staticStyle: { "margin-bottom": "10px" } }, [
+              _vm._v("Pembayaran")
+            ]),
             _vm._v(" "),
-            _c("div", { staticClass: "payment-systems-list" }),
+            _c("div", { staticClass: "payment-systems-list" }, [
+              _c("img", { attrs: { src: "images/bca.svg", alt: "BCA" } }),
+              _vm._v(" "),
+              _c("img", {
+                attrs: { src: "images/mandiri.svg", alt: "Mandiri" }
+              }),
+              _vm._v(" "),
+              _c("img", { attrs: { src: "images/bni.svg", alt: "BNI" } }),
+              _vm._v(" "),
+              _c("img", { attrs: { src: "images/visa.svg", alt: "VISA" } }),
+              _vm._v(" "),
+              _c("img", {
+                attrs: { src: "images/mastercard.svg", alt: "MasterCard" }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                attrs: { src: "images/atmbersama.svg", alt: "ATM Bersama" }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                attrs: { src: "images/permatabank.svg", alt: "Permata Bank" }
+              }),
+              _vm._v(" "),
+              _c("img", { attrs: { src: "images/prima.svg", alt: "Prima" } }),
+              _vm._v(" "),
+              _c("img", { attrs: { src: "images/alto.svg", alt: "ALto" } })
+            ]),
             _vm._v(" "),
-            _c("p", [
+            _c("p", { staticStyle: { color: "#8d8d8d" } }, [
               _vm._v(
                 "Aktivasi instan dengan e-Payment. Hosting dan domain langsung aktif"
               )
@@ -20105,7 +20131,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-xs-9 col-md-9" }, [
-            _c("p", [
+            _c("p", { staticStyle: { "font-size": "12px" } }, [
               _vm._v(
                 "\n                    Copyright 2020 Niagahoster | Hosting powered by PHP7, CloudLinux, CloudFlare, BitNinja dan DC Biznet Technovillage Jakarta "
               ),
@@ -20117,7 +20143,7 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-xs-3 col-md-3" }, [
-            _c("p", [
+            _c("p", { staticStyle: { "font-size": "12px" } }, [
               _vm._v(
                 "\n                    Syarat dan Ketentuan | Kebijakan Privasi\n                "
               )

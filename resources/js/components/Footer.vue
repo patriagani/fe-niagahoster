@@ -17,58 +17,58 @@
                 </div>
                 <div class="col-xs-3 col-md-3">
                     <h5>Layanan</h5>
-                    <p>
-                        Domain<br>
-                        Shared Hosting<br>
-                        Cloud VPS Hosting<br>
-                        Managed VPS Hosting<br>
-                        Web Builder<br>
-                        Keamanan SSL / HTTPS<br>
-                        Jasa Pembuatan Website<br>
-                        Program Afiliasi
-                    </p>
+                    <ul>
+                        <li>Domain</li>
+                        <li>Shared Hosting</li>
+                        <li>Cloud VPS Hosting</li>
+                        <li>Managed VPS Hosting</li>
+                        <li>Web Builder</li>
+                        <li>Keamanan SSL / HTTPS</li>
+                        <li>Jasa Pembuatan Website</li>
+                        <li>Program Afiliasi</li>
+                    </ul>
                 </div>
                 <div class="col-xs-3 col-md-3">
                     <h5>Service Hosting</h5>
-                    <p>
-                        Hosting Murah<br>
-                        Hosting Indonesia<br>
-                        Hosting Singapura SG<br>
-                        Hosting PHP<br>
-                        Hosting Wordpress<br>
-                        Hosting Laravel<br>
-                    </p>
+                    <ul>
+                        <li>Hosting Murah</li>
+                        <li>Hosting Indonesia</li>
+                        <li>Hosting Singapura SG</li>
+                        <li>Hosting PHP</li>
+                        <li>Hosting Wordpress</li>
+                        <li>Hosting Laravel</li>
+                    </ul>
                 </div>
                 <div class="col-xs-3 col-md-3">
                     <h5>Tutorial</h5>
-                    <p>
-                        Knowledgebase<br>
-                        Blog<br>
-                        Cara Pembayaran<br>
-                    </p>
+                    <ul>
+                        <li>Knowledgebase</li>
+                        <li>Blog</li>
+                        <li>Cara Pembayaran</li>
+                    </ul>
                 </div>
             </div>
             <br><br>
             <div class="row">
                 <div class="col-xs-3 col-md-3">
                     <h5>Tentang Kami</h5>
-                    <p>
-                        Tim Niagahoster<br>
-                        Karir<br>
-                        Events<br>
-                        Penawaran dan Promo Spesial<br>
-                        Kontak Kami
-                    </p>
+                    <ul>
+                        <li>Tim Niagahoster</li>
+                        <li>Karir</li>
+                        <li>Events</li>
+                        <li>Penawaran dan Promo Spesial</li>
+                        <li>Kontak Kami</li>
+                    </ul>
                 </div>
                 <div class="col-xs-3 col-md-3">
                     <h5>Kenapa Pilih Niagahoster</h5>
-                    <p>
-                        Support Terbaik<br>
-                        Garasi Harga Termurah<br>
-                        Domain Gratis Selamanya<br>
-                        Datacenter Hosting Terbaik<br>
-                        Review Pelanggan
-                    </p>
+                    <ul>
+                        <li>Support Terbaik</li>
+                        <li>Garasi Harga Termurah</li>
+                        <li>Domain Gratis Selamanya</li>
+                        <li>Datacenter Hosting Terbaik</li>
+                        <li>Review Pelanggan</li>
+                    </ul>
                 </div>
                 <div class="col-xs-6 col-md-6">
                     <h5>Newsletter</h5>
@@ -77,23 +77,31 @@
             <br><br>
             <div class="row payment-systems">
                 <div class="col-xs-12 col-md-12">
-                    <h5>Pembayaran</h5>
+                    <h5 style="margin-bottom:10px;">Pembayaran</h5>
                     <div class="payment-systems-list">
-
+                        <img src="images/bca.svg" alt="BCA">
+                        <img src="images/mandiri.svg" alt="Mandiri">
+                        <img src="images/bni.svg" alt="BNI">
+                        <img src="images/visa.svg" alt="VISA">
+                        <img src="images/mastercard.svg" alt="MasterCard">
+                        <img src="images/atmbersama.svg" alt="ATM Bersama">
+                        <img src="images/permatabank.svg" alt="Permata Bank">
+                        <img src="images/prima.svg" alt="Prima">
+                        <img src="images/alto.svg" alt="ALto">
                     </div>
-                    <p>Aktivasi instan dengan e-Payment. Hosting dan domain langsung aktif</p>
+                    <p style="color: #8d8d8d;">Aktivasi instan dengan e-Payment. Hosting dan domain langsung aktif</p>
                 </div>
             </div>
             <br><br>
             <div class="row">
                 <div class="col-xs-9 col-md-9">
-                    <p>
+                    <p style="font-size: 12px;">
                         Copyright 2020 Niagahoster | Hosting powered by PHP7, CloudLinux, CloudFlare, BitNinja dan DC Biznet Technovillage Jakarta <br>
                         Cloud VPS Murah powered by Webuzo Softaculous, Intel SSD and cloud computing technology
                     </p>
                 </div>
                 <div class="col-xs-3 col-md-3">
-                    <p>
+                    <p style="font-size: 12px;">
                         Syarat dan Ketentuan | Kebijakan Privasi
                     </p>
                 </div>
