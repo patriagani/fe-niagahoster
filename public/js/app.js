@@ -2338,6 +2338,141 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -21136,25 +21271,422 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "container pricing-tables" }, [
+      _c(
+        "div",
+        { staticClass: "table" },
+        [
+          _vm._m(1),
+          _vm._v(" "),
+          _c("div", { staticClass: "price" }, [
+            _c(
+              "div",
+              { staticClass: "realprice font-mont" },
+              [_c("strike", [_vm._v("Rp 19.900")])],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(2)
+          ]),
+          _vm._v(" "),
+          _vm._m(3),
+          _vm._v(" "),
+          _vm._m(4),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("Button", {
+            attrs: { title: "Pilih Sekarang", flat: "button-flat" }
+          })
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "table" },
+        [
+          _vm._m(5),
+          _vm._v(" "),
+          _c("div", { staticClass: "price" }, [
+            _c(
+              "div",
+              { staticClass: "realprice font-mont" },
+              [_c("strike", [_vm._v("Rp 46.900")])],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(6)
+          ]),
+          _vm._v(" "),
+          _vm._m(7),
+          _vm._v(" "),
+          _vm._m(8),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("Button", {
+            attrs: { title: "Pilih Sekarang", flat: "button-flat" }
+          })
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "table" },
+        [
+          _vm._m(9),
+          _vm._v(" "),
+          _c("div", { staticClass: "price" }, [
+            _c(
+              "div",
+              { staticClass: "realprice font-mont" },
+              [_c("strike", [_vm._v("Rp 58.900")])],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(10)
+          ]),
+          _vm._v(" "),
+          _vm._m(11),
+          _vm._v(" "),
+          _vm._m(12),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("Button", {
+            attrs: { title: "Pilih Sekarang", flat: "button-flat" }
+          })
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "table" },
+        [
+          _vm._m(13),
+          _vm._v(" "),
+          _c("div", { staticClass: "price" }, [
+            _c(
+              "div",
+              { staticClass: "realprice font-mont" },
+              [_c("strike", [_vm._v("Rp 109.900")])],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(14)
+          ]),
+          _vm._v(" "),
+          _vm._m(15),
+          _vm._v(" "),
+          _vm._m(16),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("Button", {
+            attrs: { title: "Pilih Sekarang", flat: "button-flat" }
+          })
+        ],
+        1
+      )
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { staticClass: "container pricing-title" }, [
-        _c("h2", { staticClass: "font-mont-bold font-size-32" }, [
-          _vm._v("Paket Hosting Singapura yang Tepat")
-        ]),
-        _vm._v(" "),
-        _c("h5", { staticClass: "font-mont font-size-23" }, [
-          _vm._v("Diskon 40% + Domain dan SSL Gratis untuk Anda")
-        ])
+    return _c("div", { staticClass: "container pricing-title" }, [
+      _c("h2", { staticClass: "font-mont-bold font-size-32" }, [
+        _vm._v("Paket Hosting Singapura yang Tepat")
       ]),
       _vm._v(" "),
-      _c("div")
+      _c("h5", { staticClass: "font-mont font-size-23" }, [
+        _vm._v("Diskon 40% + Domain dan SSL Gratis untuk Anda")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "package" }, [_c("h2", [_vm._v("Bayi")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "discounted" }, [
+      _c("sup", [_c("span", [_vm._v("Rp")])]),
+      _vm._v(" "),
+      _c("span", { staticClass: "font-mont-bold font-size-50" }, [
+        _vm._v("14")
+      ]),
+      _vm._v(" "),
+      _c("sup", [
+        _c("span", { staticClass: "font-mont-bold" }, [_vm._v(".900/")]),
+        _c("span", [_vm._v("bln")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "users font-mont font-size-13" }, [
+      _c("strong", [_vm._v("938")]),
+      _vm._v(" Pengguna Terdaftar\n            ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "package-features" }, [
+      _c("ul", { staticClass: "font-size-13" }, [
+        _c("li", [_c("strong", [_vm._v("0.5X Resource Power")])]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("500 MB")]), _vm._v(" Disk Space")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" Bandwidth")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" Databases")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("1")]), _vm._v(" Domain")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Instant")]), _vm._v(" Backup")]),
+        _vm._v(" "),
+        _c("li", [
+          _c("strong", [_vm._v("Unlimited")]),
+          _vm._v(" SSL Gratis Selamanya")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "package" }, [
+      _c("h2", [_vm._v("Pelajar")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "discounted" }, [
+      _c("sup", [_c("span", [_vm._v("Rp")])]),
+      _vm._v(" "),
+      _c("span", { staticClass: "font-mont-bold font-size-50" }, [
+        _vm._v("23")
+      ]),
+      _vm._v(" "),
+      _c("sup", [
+        _c("span", { staticClass: "font-mont-bold" }, [_vm._v(".450/")]),
+        _c("span", [_vm._v("bln")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "users font-mont font-size-13" }, [
+      _c("strong", [_vm._v("4.168")]),
+      _vm._v(" Pengguna Terdaftar\n            ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "package-features" }, [
+      _c("ul", { staticClass: "font-size-13" }, [
+        _c("li", [_c("strong", [_vm._v("1X Resource Power")])]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" Disk Space")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" Bandwidth")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" POP3 Email")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" Databases")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("10")]), _vm._v(" Domain")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Instant")]), _vm._v(" Backup")]),
+        _vm._v(" "),
+        _c("li", [
+          _c("strong", [_vm._v("Domain Gratis")]),
+          _vm._v(" Selamanya")
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("strong", [_vm._v("Unlimited")]),
+          _vm._v(" SSL Gratis Selamanya")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "package" }, [
+      _c("h2", [_vm._v("Personal")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "discounted" }, [
+      _c("sup", [_c("span", [_vm._v("Rp")])]),
+      _vm._v(" "),
+      _c("span", { staticClass: "font-mont-bold font-size-50" }, [
+        _vm._v("38")
+      ]),
+      _vm._v(" "),
+      _c("sup", [
+        _c("span", { staticClass: "font-mont-bold" }, [_vm._v(".900/")]),
+        _c("span", [_vm._v("bln")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "users font-mont font-size-13" }, [
+      _c("strong", [_vm._v("10.017")]),
+      _vm._v(" Pengguna Terdaftar\n            ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "package-features" }, [
+      _c("ul", { staticClass: "font-size-13" }, [
+        _c("li", [_c("strong", [_vm._v("2X Resource Power")])]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" Disk Space")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" Bandwidth")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" POP3 Email")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" Databases")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" Domain")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Instant")]), _vm._v(" Backup")]),
+        _vm._v(" "),
+        _c("li", [
+          _c("strong", [_vm._v("Domain Gratis")]),
+          _vm._v(" Selamanya")
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("strong", [_vm._v("Unlimited")]),
+          _vm._v(" SSL Gratis Selamanya")
+        ]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Private")]), _vm._v(" Name Server")]),
+        _vm._v(" "),
+        _c("li", [
+          _c("strong", [_vm._v("SpamAssasin")]),
+          _vm._v(" Mail Protection")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "package" }, [_c("h2", [_vm._v("Bisnis")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "discounted" }, [
+      _c("sup", [_c("span", [_vm._v("Rp")])]),
+      _vm._v(" "),
+      _c("span", { staticClass: "font-mont-bold font-size-50" }, [
+        _vm._v("65")
+      ]),
+      _vm._v(" "),
+      _c("sup", [
+        _c("span", { staticClass: "font-mont-bold" }, [_vm._v(".900/")]),
+        _c("span", [_vm._v("bln")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "users font-mont font-size-13" }, [
+      _c("strong", [_vm._v("3.552")]),
+      _vm._v(" Pengguna Terdaftar\n            ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "package-features" }, [
+      _c("ul", { staticClass: "font-size-13" }, [
+        _c("li", [_c("strong", [_vm._v("3X Resource Power")])]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" Disk Space")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" Bandwidth")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" POP3 Email")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" Databases")]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Unlimited")]), _vm._v(" Domain")]),
+        _vm._v(" "),
+        _c("li", [
+          _c("strong", [_vm._v("Magic Auto")]),
+          _vm._v(" Backup & Restore")
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("strong", [_vm._v("Domain Gratis")]),
+          _vm._v(" Selamanya")
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("strong", [_vm._v("Unlimited")]),
+          _vm._v(" SSL Gratis Selamanya")
+        ]),
+        _vm._v(" "),
+        _c("li", [_c("strong", [_vm._v("Private")]), _vm._v(" Name Server")]),
+        _vm._v(" "),
+        _c("li", [
+          _c("strong", [_vm._v("Prioritas")]),
+          _vm._v(" Layanan Support")
+        ]),
+        _vm._v(" "),
+        _c("li", [_vm._v("*****")]),
+        _vm._v(" "),
+        _c("li", [
+          _c("strong", [_vm._v("SpamAssasin")]),
+          _vm._v(" Mail Protection")
+        ])
+      ])
     ])
   }
 ]

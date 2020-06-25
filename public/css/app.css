@@ -50,8 +50,12 @@ li{
     font-size: 12px;
 }
 
-.font-size-14 {
-    font-size: 14px;
+.font-size-13 {
+    font-size: 13px;
+}
+
+.font-size-16 {
+    font-size: 16px;
 }
 
 .font-size-18 {
@@ -64,6 +68,10 @@ li{
 
 .font-size-32 {
     font-size: 32px;
+}
+
+.font-size-50 {
+    font-size: 50px;
 }
 
 .center-element {
@@ -379,4 +387,58 @@ li{
     max-width: 77px;
     height: auto;
     margin-right: 5px;
+}
+
+.pricing-tables{
+    padding: 50px 0px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pricing-tables .table {
+    padding-bottom: 30px;
+    width: 270px;
+    height: 100%;
+    border: 1px solid #f1f1f1;
+}
+
+.pricing-tables .table .package{
+    padding: 10px 0px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.pricing-tables .table .users{
+    padding: 10px 0px;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.pricing-tables .table .package-features ul{
+    padding: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+
+.pricing-tables .table .package-features li{
+    padding: 3px 0px;
+}
+
+.pricing-tables .table .package h2{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #4d4d4d;
+}
+
+.pricing-tables .table .price{
+    padding-top: 10px;
+ }
+
+.pricing-tables .table .price .discounted sup{
+   top: -1.5em;
+   font-size: 16px;
 }
